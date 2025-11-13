@@ -13,11 +13,11 @@
     <?php include "includes/header.php"; ?>
     <main class="main">
       <section>
-        <div class="banner-block banner-block--home yellow-corn-bg spacing-6-v-app">
+        <div class="banner-block banner-block--home yellow-corn-bg spacing-4-v-app">
           <div class="banner-content-block container-mid">
             <div class="banner-inner">
               <div class="banner-text-content grey-soot">
-                <h1 class="banner-home-heading heading-banner">We're here <br>to listen</h1>
+                <h1 class="banner-home-heading heading-banner">We're here to listen</h1>
                 <div class="banner-content">
                   <p class="h2 banner-text margin-reset spacing-4-b">Today I want to talk about:</p>
                 </div>
@@ -38,7 +38,7 @@
                   <a href="#" class="btn btn--grey-soot banner-home-btn-explore">Explore</a>
                 </div>
               </div>
-              <div class="banner-image-wrapper">
+              <div class="banner-img-wrapper">
                 <img src="/static/img/home/banner-hero.png" alt="Illustration of hands listening" class="banner-image">
               </div>
             </div> <!-- /.banner-inner -->
@@ -46,10 +46,24 @@
         </div> <!-- /.banner-block -->
       </section>
 
-      <section class="purple-lavender-bg spacing-6-v-app">
+      <section class="white-bg spacing-6-v-app">
+        <div class="container-mid text-center">
+          <h2 class="h1 margin-reset spacing-3-b">It's okay to ask for support</h2>
+          <div class="home-support-content">
+            <p class="">Sometimes life feels overwhelming. You might be carrying stress, anxiety, or exhaustion that feels too heavy. You may be worried about someone you love, or simply longing for a space where someone will really listen.</p>
+            <p class="font-semi-bold spacing-t">Whatever brings you here—you don't have to go through it alone. Reaching out is a brave first step, and we are here to walk with you.</p>
+          </div> <!-- /.home-support-content -->
+          <div class="spacing-t">
+            <p>Add number here</p>
+            <a href="tel:" class="btn btn--yellow-corn">Call a Helpline</a>
+          </div> <!-- /.helpline-cta-block -->
+        </div> <!-- /.container-mid -->
+      </section> <!-- /.white-bg -->
+
+      <section class="purple-lavender-bg spacing-3-v">
         <div class="container-mid spacing-6-t-app spacing-6-b-app">
-          <h2 class="white text-center spacing-4-b">Find support, in ways that work for you</h2>
-          <div class="home-support-card-block grid grid-sm-2 grid-mid-4 grid-gap-20">
+          <h2 class="white text-center spacing-5-b">Find support, in ways that work for you</h2>
+          <div class="home-support-card-block grid grid-xs-2 grid-mid-4 grid-gap-20">
             <a href="/telecounseling" class="home-support-card">
               <p>Speak with someone who listens, from the comfort of your home.</p>
               <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Telecounseling</strong></p>
@@ -73,121 +87,67 @@
         </div> <!-- /.container-mid -->
       </section> <!-- /.purple-lavender-bg -->
 
-      <section class="home-transform-block spacing-9-t-app">
-        <div class="container-lg gutter-site-main">
-          <h2 class="heading-section blue-brand text-center">Transforming Justice: Legal Empowerment, Mental Health Support & Social Rehabilitation for Marginalized Communities</h2>
-          <div class="row-lg flex spacing-3-t-app grey-stone-40">
-            <div class="col-lg col-12 col-6-sm">
-              <div>
-                <p class="margin-reset">LAW Foundation is a socio-legal organization committed to ensuring justice, legal empowerment, and social rehabilitation for marginalized communities, including incarcerated individuals, women, and LGBTQ+ persons. Founded in 2019, it emerged from grassroots efforts that successfully challenged systemic barriers within the criminal justice system.</p>
+      <section class="spacing-3-v-app">
+        <div class="container-lg">
+          <div class="grid-sm grid-2 grid-gap-20">
+            <div>
+              <h2 class="h1">Trusted information, when it matters most</h2>
+              <p class="spacing-t">Many people suffer in silence—not because they don’t want help, but because they don’t know where to go. At TLS, we provide reliable guidance, resources, and connections so no one feels lost on their mental health journey.</p>
+              <div class="spacing-3-t spacing-5-b">
+                <a href="/about" class="btn btn--yellow-corn">Know About Us</a>
               </div>
-            </div> <!-- /.col-lg -->
-            <div class="col-lg col-12 col-6-sm">
-              <div>
-                <p class="margin-reset">By integrating socio-legal aid, mental health support, and gender justice advocacy, we work toward a sustainable and inclusive justice system. Through policy reforms, community engagement, and innovative legal strategies, LAW Foundation continues to drive systemic change, securing the rights and dignity of historically disadvantaged populations.</p>
-              </div>
-            </div> <!-- /.col-lg -->
-          </div> <!-- /.row-lg -->
-        </div> <!-- /.container-lg -->
-      </section> <!-- ./home-transform-block -->
-
-      <section class="home-overview-block spacing-15-t-app">
-        <div class="container-lg gutter-site-main">
-          <h2 class="heading-section blue-brand text-center spacing-3-b col-8-lg margin-left-auto margin-right-auto">Overview of Key Initiatives by LAW Foundation</h2>
-          <div class="row-lg flex">
-            <div class="col-lg col-12 col-6-sm col-content-box">
-              <a href="/socio-legal-aid" class="content-box content-box--light">
-                <div class="content-box-icon-block">
-                  <img src="/static/images/icons/scale-book.svg" alt="Icon of a justice scale with a book">
-                </div>
-                <h3 class="heading-content">Socio-Legal Aid</h3>
-                <p class="font-size-base margin-reset color-font">This initiative ensures accessible justice for marginalized communities and custodial populations. Through legal literacy programs, para-legal volunteers, and support for social entitlements, we empower individuals to secure their rights. The 3R approach—Rehabilitation, Reformation, Reintegration—guides our work, driving systemic change.</p>
-              </a> <!-- /.content-box -->
-            </div> <!-- /.col-lg -->
-            <div class="col-lg col-12 col-6-sm col-content-box">
-              <a href="/sustainable-mental-health" class="content-box content-box--light">
-                <div class="content-box-icon-block">
-                  <img src="/static/images/icons/brain-heart.svg" alt="Icon of a heart inside a brain">
-                </div>
-                <h3 class="heading-content">Sustainable Mental Health Initiative</h3>
-                <p class="font-size-base margin-reset color-font">Addressing incarceration's psychosocial impact, this initiative integrates mental health care into socio-legal interventions. Through trauma-informed counseling, community networks, and prison-based programs, we foster emotional resilience, ensuring mental health support remains a sustainable component of justice and rehabilitation.</p>
-              </a> <!-- /.content-box -->
-            </div> <!-- /.col-lg -->
-            <div class="col-lg col-12 col-6-sm col-content-box">
-              <a href="/gender-justice" class="content-box content-box--light">
-                <div class="content-box-icon-block">
-                  <img src="/static/images/icons/scale.svg" alt="Icon of a justice scale">
-                </div>
-                <h3 class="heading-content">Gender Justice</h3>
-                <p class="font-size-base margin-reset color-font">We protect and empower women and LGBTQ+ individuals through legal aid, crisis intervention, and mental health support. By advocating gender-sensitive reforms and creating safe spaces, we eliminate discrimination and promote equitable justice through structural advocacy and grassroots initiatives.</p>
-              </a> <!-- /.content-box -->
-            </div> <!-- /.col-lg -->
-            <div class="col-lg col-12 col-6-sm col-content-box">
-              <a href="/clap" class="content-box content-box--light">
-                <div class="content-box-icon-block">
-                  <img src="/static/images/icons/book.svg" alt="Icon of a book with a bookmark">
-                </div>
-                <h3 class="heading-content">CLAP: Children Legal Aid & Protection</h3>
-                <p class="font-size-base margin-reset color-font">CLAP supports children in conflict with the law by providing socio-legal aid, education access, rehabilitation, and mental health services. By addressing stigma, inadequate representation, and social exclusion, we help reintegrate vulnerable children into society with dignity and opportunity.</p>
-              </a> <!-- /.content-box -->
-            </div> <!-- /.col-lg -->
-          </div> <!-- /.row-lg -->
-        </div> <!-- /.container-lg -->
-      </section> <!-- ./home-overview-block -->
-
-      <section class="home-change-block spacing-15-t-app spacing-4-b-app">
-        <div class="container-lg gutter-site-main">
-          <h2 class="heading-section blue-brand text-center">Measuring Change</h2>
-          <p class="grey-stone-40 spacing-4-b text-center col-7-lg margin-left-auto margin-right-auto">Tracking our reach, outcomes, and the lives changed through socio-legal interventions.</p>
-          <div class="row-lg flex">
-            <div class="col-lg col-12 col-6-sm col-3-mid spacing-5-b">
-              <div class="home-change-each">
-                <div class="home-change-each-icon-block">
-                  <img src="/static/images/icons/scale-book-white.svg" class="home-change-each-icon" width="80" alt="Icon of a justice scale with a book">
-                </div> <!-- /.home-change-each-icon-block -->
-                <h3 class="h2 blue-brand font-black spacing-3-t">500+</h3>
-                <p class="blue-brand margin-reset font-size-xxl font-black">Legal Aid Interventions</p>
-              </div> <!-- /.home-change-each -->
-            </div> <!-- /.col-lg -->
-
-            <div class="col-lg col-12 col-6-sm col-3-mid spacing-5-b">
-              <div class="home-change-each">
-                <div class="home-change-each-icon-block">
-                  <img src="/static/images/icons/prison-white.svg" class="home-change-each-icon" width="140" alt="Icon of a prison door">
-                </div> <!-- /.home-change-each-icon-block -->
-                <h3 class="h2 blue-brand font-black spacing-3-t">300+</h3>
-                <p class="blue-brand margin-reset font-size-xxl font-black">Prison Visits</p>
-              </div> <!-- /.home-change-each -->
-            </div> <!-- /.col-lg -->
-
-            <div class="col-lg col-12 col-6-sm col-3-mid spacing-5-b">
-              <div class="home-change-each">
-                <div class="home-change-each-icon-block">
-                  <img src="/static/images/icons/house-white.svg" class="home-change-each-icon" width="100" alt="Icon of a house">
-                </div> <!-- /.home-change-each-icon-block -->
-                <h3 class="h2 blue-brand font-black spacing-3-t">200+</h3>
-                <p class="blue-brand margin-reset font-size-xxl font-black">Home Visits</p>
-              </div> <!-- /.home-change-each -->
-            </div> <!-- /.col-lg -->
-
-            <div class="col-lg col-12 col-6-sm col-3-mid spacing-5-b">
-              <div class="home-change-each">
-                <div class="home-change-each-icon-block">
-                  <img src="/static/images/icons/scale-document-white.svg" class="home-change-each-icon" width="90" alt="Icon of a document with a justice scale and a pen">
-                </div> <!-- /.home-change-each-icon-block -->
-                <h3 class="h2 blue-brand font-black spacing-3-t">350+</h3>
-                <p class="blue-brand margin-reset font-size-xxl font-black">PR/Bail Bonds Furnished</p>
-              </div> <!-- /.home-change-each -->
-            </div> <!-- /.col-lg -->
-          </div> <!-- /.row-lg -->
+            </div>            
+            <div class="margin-left-auto">
+              <img src="/static/img/home/hand-flower.svg" width="297" height="372" alt="Illustration of hand holding a flower" class="home-trusted-info-img">
+            </div> 
+          </div>
         </div> <!-- /.container-lg -->
       </section>
 
-      <section class="spacing-9-t-app spacing-15-b-app">
-        <div class="container-lg gutter-site-main">
-          <h2 class="show-on-screen-reader">Testimonials</h2>
-        </div> <!-- /.container-lg -->
+      <section class="spacing-5-b-app">
+        <div class="container-mid">
+          <div class="h2 font-medium">
+            <p class="spacing-t">When I first reached out to The Listening Station, I was going through a very dark and confusing time. I didn’t know if I could speak about what I was feeling. But the person on the other side just listened — without judgment. That moment helped me begin my journey toward healing. I feel lighter, and I now know that help is available when we ask for it.</p>
+          </div>            
+          <div class="spacing-2-t">
+            <div>– Tiajungla Aier, Dimapur</div>
+          </div>
+        </div> <!-- /.container-mid -->
       </section>
+
+      <section class="home-find-support-block purple-lavender-bg spacing-5-t-app spacing-9-b-app">
+        <div class="container-mid">
+          <h2 class="text-center white">Find support, in ways that work for you</h2>
+          <div class="home-find-support-cards spacing-2-t grid-sm grid-sm-3 grid-gap-20">
+            <div class="home-find-support-card white-bg">
+              <h3 class="font-size-base font-medium">Volunteer With Us</h3>
+              <p class="font-size-sm">Be part of a compassionate community that listens, supports, and creates safe spaces for healing.</p>
+              <div class="home-find-support-card-illustration spacing-3-v">
+                <img src="/static/img/home/find-support/hand-holding-star.png" alt="Hand holding a yellow star" width="187" height="219" class="home-find-support-card-icon">
+              </div> <!-- /.home-find-support-card-illustration -->
+              <a href="/volunteer" class="home-find-support-card-btn btn btn--yellow-corn">Learn More</a>
+            </div> <!-- /.home-find-support-card -->
+            
+            <div class="home-find-support-card white-bg">
+              <h3 class="font-size-base font-medium">Internship Opportunities</h3>
+              <p class="font-size-sm">Gain hands-on experience in mental health support while helping individuals and communities build resilience.</p>
+              <div class="home-find-support-card-illustration spacing-3-v">
+                <img src="/static/img/home/find-support/hand-holding-pencil.png" alt="Hand holding a pencil" class="home-find-support-card-icon">
+              </div> <!-- /.home-find-support-card-illustration -->
+              <a href="/internship" class="home-find-support-card-btn btn btn--yellow-corn">View Openings</a>
+            </div> <!-- /.home-find-support-card -->
+            
+            <div class="home-find-support-card white-bg">
+              <h3 class="font-size-base font-medium">Donate &amp; Support</h3>
+              <p class="font-size-sm">Every contribution helps us offer free counseling, awareness, and safe spaces for those in need.</p>
+              <div class="home-find-support-card-illustration spacing-3-v">
+                <img src="/static/img/home/find-support/hand-holding-coin.png" alt="Hand holding a coin" width="164" height="195" class="home-find-support-card-icon">
+              </div> <!-- /.home-find-support-card-illustration -->
+              <a href="/donate" class="home-find-support-card-btn btn btn--yellow-corn">Donate Now</a>
+            </div> <!-- /.home-find-support-card -->
+          </div> <!-- /.home-find-support-cards -->
+        </div> <!-- /.container-mid -->
+      </section> <!-- /.home-find-support-block -->
 
     </main>
 

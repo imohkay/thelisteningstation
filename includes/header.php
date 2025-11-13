@@ -31,7 +31,7 @@
       </div> <!-- /.gutter -->
       <div class="gutter-lg header-col-btn">
         <!-- <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_QOw2vDtJ9S9gqc" async> </script> </form> -->
-        <a href="/get-involved" class="btn btn--purple-lavender btn--sm btn-header-donate">Donate</a>
+        <a href="/get-involved" class="btn btn--purple-lavender btn--sm text-uppercase btn-header-donate">Donate</a>
       </div> <!-- /.gutter -->
     </div> <!-- /.row -->
   </div> <!-- /.container -->
