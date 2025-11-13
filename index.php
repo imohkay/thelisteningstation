@@ -13,18 +13,65 @@
     <?php include "includes/header.php"; ?>
     <main class="main">
       <section>
-        <div class="banner-block banner-block--home">
-          <div class="banner-content-block container-mid gutter-site-main">
-            <h1 class="banner-heading banner-heading--lg">Empowering Justice, Restoring Lives</h1>
-            <div class="banner-content">
-              <p class="margin-reset">We are a not-for-profit organization providing socio-legal aid and mental health advocacy to marginalized custodial populations and disadvantaged communities in Bihar, India. We work to ensure justice, fundamental rights, and well-being while focusing on Rehabilitation, Reformation & Reintegration of inmates.</p>
-            </div>
-            <div class="banner-btn-block">
-              <a href="/get-involved/#join-us" class="btn btn--lg btn--lg-padding-lg btn--blue-brand banner-btn">Join us</a>
-            </div>
-          </div>
+        <div class="banner-block banner-block--home yellow-corn-bg spacing-6-v-app">
+          <div class="banner-content-block container-mid">
+            <div class="banner-inner">
+              <div class="banner-text-content grey-soot">
+                <h1 class="banner-home-heading heading-banner">We're here <br>to listen</h1>
+                <div class="banner-content">
+                  <p class="h2 banner-text margin-reset spacing-4-b">Today I want to talk about:</p>
+                </div>
+
+                <div class="banner-select-block">
+                  <div class="custom-dropdown">
+                    <button class="custom-dropdown-toggle custom-dropdown-toggle--banner-home" type="button" aria-expanded="false" aria-haspopup="true">
+                      <span class="custom-dropdown-text">How to donate to The Listening Station</span>
+                      <img src="/static/img/icons/caret-down.svg" alt="" class="custom-dropdown-icon" aria-hidden="true">
+                    </button>
+                    <ul class="custom-dropdown-menu" role="menu" aria-hidden="true">
+                      <li role="none"><a href="/how-to-donate" role="menuitem">How to donate to The Listening station.</a></li>
+                      <li role="none"><a href="/get-support" role="menuitem">Get support</a></li>
+                      <li role="none"><a href="/volunteer" role="menuitem">Volunteer</a></li>
+                      <li role="none"><a href="/resources" role="menuitem">Resources</a></li>
+                    </ul>
+                  </div> <!-- /.banner-select-block -->
+                  <a href="#" class="btn btn--grey-soot banner-home-btn-explore">Explore</a>
+                </div>
+              </div>
+              <div class="banner-image-wrapper">
+                <img src="/static/img/home/banner-hero.png" alt="Illustration of hands listening" class="banner-image">
+              </div>
+            </div> <!-- /.banner-inner -->
+          </div> <!-- /.banner-content -->
         </div> <!-- /.banner-block -->
       </section>
+
+      <section class="purple-lavender-bg spacing-6-v-app">
+        <div class="container-mid spacing-6-t-app spacing-6-b-app">
+          <h2 class="white text-center spacing-4-b">Find support, in ways that work for you</h2>
+          <div class="home-support-card-block grid grid-sm-2 grid-mid-4 grid-gap-20">
+            <a href="/telecounseling" class="home-support-card">
+              <p>Speak with someone who listens, from the comfort of your home.</p>
+              <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Telecounseling</strong></p>
+            </a> <!-- /.home-support-card -->
+            
+            <a href="/personal-counseling" class="home-support-card">
+              <p>One-on-one sessions for deeper support.</p>
+              <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Personal Counseling</strong></p>
+            </a> <!-- /.home-support-card -->
+            
+            <a href="/awareness-programs" class="home-support-card">
+              <p>Workshops and programs that build understanding.</p>
+              <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Awareness Programs</strong></p>
+            </a> <!-- /.home-support-card -->
+            
+            <a href="/youth-engagement" class="home-support-card">
+              <p>Safe spaces to share, connect, and grow together.</p>
+              <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Youth Engagement</strong></p>
+            </a> <!-- /.home-support-card -->
+          </div> <!-- /.home-support-card-block -->
+        </div> <!-- /.container-mid -->
+      </section> <!-- /.purple-lavender-bg -->
 
       <section class="home-transform-block spacing-9-t-app">
         <div class="container-lg gutter-site-main">
