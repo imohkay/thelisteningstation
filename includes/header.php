@@ -1,7 +1,7 @@
 <header class="header">
-  <div class="container-full gutter-site-main">
+  <div class="container-full">
     <div class="header-grid grid">
-      <div class="gutter-lg header-col-nav">
+      <div class="header-col-nav">
         <button class="js-btn-nav-toggle btn-reset btn-nav-toggle">
           <span class="show-on-screen-reader">Menu</span>
           <span class="menu-line menu-line--1" aria-hidden="true"></span>
@@ -23,8 +23,8 @@
             <li><a href="/get-involved" class="nav-link">Get Involved</a></li>
           </ul>
         </nav>
-      </div> <!-- /.gutter -->
-      <div class="gutter-lg header-logo-nav">
+      </div> <!-- /.header-col-nav -->
+      <div class="header-logo-nav">
         <a href="/" class="header-logo">
           <img src="/static/img/logo-tls-2x.png" width="100" height="96" alt="The Listening Station logo" class="header-logo-img">
         </a>
@@ -32,7 +32,7 @@
       <div class="gutter-lg header-col-btn">
         <!-- <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_QOw2vDtJ9S9gqc" async> </script> </form> -->
         <a href="/get-involved" class="btn btn--purple-lavender btn--sm text-uppercase btn-header-donate">Donate</a>
-      </div> <!-- /.gutter -->
-    </div> <!-- /.row -->
+      </div> <!-- /.header-logo-nav -->
+    </div> <!-- /.grid -->
   </div> <!-- /.container -->
 </header>

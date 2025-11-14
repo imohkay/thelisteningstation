@@ -1,6 +1,6 @@
-<footer class="footer white-bg spacing-6-v-app">
-  <div class="container-full spacing-6-t-app spacing-6-b-app">
-    <div class="footer-top grid grid-sm-2 grid-mid-2 grid-gap-40 spacing-3-b">
+<footer class="footer white-bg spacing-6-t-app spacing-b">
+  <div class="container-full">
+    <div class="footer-top grid-sm grid-sm-2 grid-mid-2 grid-gap-40 spacing-3-b">
       <div class="footer-col footer-col-cta">
         <h2 class="spacing-3-b">Helping you find your voice, one conversation at a time.</h2>
       </div> <!-- /.footer-col-cta -->
@@ -23,24 +23,28 @@
       </div> <!-- /.footer-col-social -->
     </div> <!-- /.footer-top -->
     
-    <div class="footer-bottom grid grid-sm-2 grid-mid-3 grid-gap-40">
-      <div class="footer-col footer-col-links">
-        <h3 class="font-size-base font-medium">Legal Information</h3>
-        <ul class="footer-links list-reset">
-          <li class="spacing-2-b"><a href="/privacy-policy" class="footer-link font-size-sm grey-coal">Privacy policy</a></li>
-          <li><a href="/terms-and-conditions" class="footer-link font-size-sm grey-coal">Terms and conditions</a></li>
-        </ul> <!-- /.footer-links -->
-      </div> <!-- /.footer-col-links -->
+    <div class="footer-bottom grid grid-sm-2 grid-gap-20">
+      <div class="footer-col footer-col-lists">
+        <div class="footer-lists-wrapper grid-xs grid-2 grid-gap-20">
+          <div class="footer-col footer-col-links">
+            <h3 class="font-size-base font-medium">Legal Information</h3>
+            <ul class="footer-links list-reset">
+              <li class="spacing-2-b"><a href="/privacy-policy" class="footer-link font-size-sm grey-coal">Privacy policy</a></li>
+              <li class="spacing-2-b"><a href="/terms-and-conditions" class="footer-link font-size-sm grey-coal">Terms and conditions</a></li>
+            </ul> <!-- /.footer-links -->
+          </div> <!-- /.footer-col-links -->
+          
+          <div class="footer-col footer-col-contact">
+            <h3 class="font-size-base font-medium">Contact Us</h3>
+            <ul class="footer-links list-reset">
+              <li class="spacing-2-b"><a href="/helpline" class="footer-link font-size-sm grey-coal">Helpline</a></li>
+              <li class="spacing-2-b"><a href="/volunteer" class="footer-link font-size-sm grey-coal">Volunteer</a></li>
+            </ul> <!-- /.footer-links -->
+          </div> <!-- /.footer-col-contact -->
+        </div> <!-- /.footer-lists-wrapper -->
+      </div> <!-- /.footer-col-lists -->
       
-      <div class="footer-col footer-col-contact">
-        <h3 class="font-size-base font-medium">Contact Us</h3>
-        <ul class="footer-links list-reset">
-          <li class="spacing-2-b"><a href="/helpline" class="footer-link font-size-sm grey-coal">Helpline</a></li>
-          <li><a href="/volunteer" class="footer-link font-size-sm grey-coal">Volunteer</a></li>
-        </ul> <!-- /.footer-links -->
-      </div> <!-- /.footer-col-contact -->
-      
-      <div class="footer-col footer-col-logo margin-left-auto">
+      <div class="footer-col footer-col-logo">
         <div class="footer-logo-block">
           <a href="/" class="footer-logo">
             <img src="/static/img/logo-tls-2x.png" width="190" height="182" alt="The Listening Station logo" class="footer-logo-img">
@@ -48,6 +52,6 @@
         </div> <!-- /.footer-logo-block -->
       </div> <!-- /.footer-col-logo -->
     </div> <!-- /.footer-bottom -->
-  <p class="font-size-xs text-center margin-reset spacing-3-t">copyrights and developer details here.</p>
+  <p class="font-size-xs text-center margin-reset spacing-5-t-app">copyrights and developer details here.</p>
   </div> <!-- /.container-full -->
 </footer>

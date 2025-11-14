@@ -42,7 +42,7 @@
                 <img src="/static/img/home/banner-hero.png" alt="Illustration of hands listening" class="banner-image">
               </div>
             </div> <!-- /.banner-inner -->
-          </div> <!-- /.banner-content -->
+          </div> <!-- /.banner-content-block -->
         </div> <!-- /.banner-block -->
       </section>
 
@@ -64,22 +64,22 @@
         <div class="container-mid spacing-6-t-app spacing-6-b-app">
           <h2 class="white text-center spacing-5-b">Find support, in ways that work for you</h2>
           <div class="home-support-card-block grid grid-xs-2 grid-mid-4 grid-gap-20">
-            <a href="/telecounseling" class="home-support-card">
+            <a href="/telecounseling" class="card-gradient-border home-support-card">
               <p>Speak with someone who listens, from the comfort of your home.</p>
               <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Telecounseling</strong></p>
             </a> <!-- /.home-support-card -->
             
-            <a href="/personal-counseling" class="home-support-card">
+            <a href="/personal-counseling" class="card-gradient-border home-support-card">
               <p>One-on-one sessions for deeper support.</p>
               <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Personal Counseling</strong></p>
             </a> <!-- /.home-support-card -->
             
-            <a href="/awareness-programs" class="home-support-card">
+            <a href="/awareness-programs" class="card-gradient-border home-support-card">
               <p>Workshops and programs that build understanding.</p>
               <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Awareness Programs</strong></p>
             </a> <!-- /.home-support-card -->
             
-            <a href="/youth-engagement" class="home-support-card">
+            <a href="/youth-engagement" class="card-gradient-border home-support-card">
               <p>Safe spaces to share, connect, and grow together.</p>
               <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Youth Engagement</strong></p>
             </a> <!-- /.home-support-card -->
@@ -106,6 +106,7 @@
 
       <section class="spacing-5-b-app">
         <div class="container-mid">
+          <h2 class="show-on-screen-reader">Testimonial</h2>
           <div class="h2 font-medium">
             <p class="spacing-t">When I first reached out to The Listening Station, I was going through a very dark and confusing time. I didn’t know if I could speak about what I was feeling. But the person on the other side just listened — without judgment. That moment helped me begin my journey toward healing. I feel lighter, and I now know that help is available when we ask for it.</p>
           </div>            
@@ -118,7 +119,7 @@
       <section class="home-find-support-block purple-lavender-bg spacing-5-t-app spacing-9-b-app">
         <div class="container-mid">
           <h2 class="text-center white">Find support, in ways that work for you</h2>
-          <div class="home-find-support-cards spacing-2-t grid-sm grid-sm-3 grid-gap-20">
+          <div class="home-find-support-cards spacing-2-t grid grid-xs-2 grid grid-gap-40">
             <div class="home-find-support-card white-bg">
               <h3 class="font-size-base font-medium">Volunteer With Us</h3>
               <p class="font-size-sm">Be part of a compassionate community that listens, supports, and creates safe spaces for healing.</p>
@@ -132,7 +133,7 @@
               <h3 class="font-size-base font-medium">Internship Opportunities</h3>
               <p class="font-size-sm">Gain hands-on experience in mental health support while helping individuals and communities build resilience.</p>
               <div class="home-find-support-card-illustration spacing-3-v">
-                <img src="/static/img/home/find-support/hand-holding-pencil.png" alt="Hand holding a pencil" class="home-find-support-card-icon">
+                <img src="/static/img/home/find-support/hand-holding-pencil.png" alt="Hand holding a pencil" width="187" height="193" class="home-find-support-card-icon">
               </div> <!-- /.home-find-support-card-illustration -->
               <a href="/internship" class="home-find-support-card-btn btn btn--yellow-corn">View Openings</a>
             </div> <!-- /.home-find-support-card -->
