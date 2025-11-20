@@ -13,7 +13,7 @@
     <?php include "includes/header.php"; ?>
     <main class="main">
       <section>
-        <div class="banner-block yellow-corn-bg spacing-4-v-app">
+        <div class="banner-block yellow-corn-bg spacing-7-v-app">
           <div class="container-mid banner-container-about">
             <div>
               <p>We are here to create spaces where every voice is heard, every struggle is met with compassion, and every individual feels supported on their journey toward healing. No one should have to walk through fear, anxiety, or loneliness in silence.</p>

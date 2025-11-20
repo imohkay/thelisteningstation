@@ -13,86 +13,74 @@
     <?php include "../includes/header.php"; ?>
     <main class="main">
       <section>
-        <div class="banner-block yellow-corn-bg spacing-4-v-app">
-          <div class="container-mid banner-container-services">
-            <h2 class="h1">Ways We Can Help</h2>
-            <div>
-              <p>The Listening Station is rooted in the belief that everyone deserves to be heard with empathy and respect. We provide safe, compassionate, and community-centered mental health services that meet people where they are.</p>
-              <p>From a simple phone call to in-depth counseling, from awareness workshops to community healing circles, The Listening Station is here to walk alongside you, your family, and your community—making mental health support accessible, human, and lasting.</p>
-            </div>
+        <div class="banner-block yellow-corn-bg spacing-7-v-app">
+          <div class="container-mid">
+            <div class="banner-container-service-each grid grid-gap-20 grid-gap-40-sm">
+              <div class="banner-container-service-each-img-block">
+                <img src="/static/img/services/telecounseling.png" alt="Hand holding a phone" class="services-support-card-icon" width="465" height="524">
+              </div>
+              <div>
+                <h2 class="h1 banner-container-service-each-heading">When you need someone to talk to, we're here to listen.</h2>
+                <div>
+                  <h4 class="font-size-base">What is Telecounseling?</h4>
+                  <p class="spacing-t">Telecounseling is a form of mental health support offered over the phone. It allows individuals to speak with a trained listener or counselor from the privacy and comfort of their own space. It's a safe, confidential, and accessible way to talk about what you're going through — especially when face-to-face support isn't possible.</p>
+                </div>
+              </div>
+            </div> <!-- /.banner-container-service-each -->
           </div> <!-- /.container-mid -->
         </div> <!-- /.banner-block -->
       </section>
 
       <section>
-        <div class="container-lg spacing-6-t-app spacing-6-b-app">
-          <h2 class="text-center spacing-2-b">Find support, in ways that work for you</h2>
-          <div class="services-support-card-block grid grid-xs-2 grid-gap-20">
-            <div class="card-gradient-border services-support-card">
-              <div class="services-support-card-grid grid-xs grid-2 grid-gap-40">
-                <div class="services-support-card-illustration">
-                  <img src="/static/img/services/telecounseling.png" alt="Hand holding a phone" class="services-support-card-icon">
-                </div> <!-- /.services-support-card-illustration -->
-                <div class="services-support-card-content">
-                  <h3 class="font-size-base font-medium">Telecounseling</h3>
-                  <p class="font-size-sm spacing-3-b">Speak with a trained listener over the phone, from the comfort of your own space. Free, accessible, and when you need it most.</p>
-                  <a href="/telecounseling" class="btn btn--yellow-corn services-support-card-btn">Learn More</a>
-                </div> <!-- /.services-support-card-content -->
-              </div> <!-- /.services-support-card-grid -->
-            </div> <!-- /.services-support-card -->
+        <div class="container-mid spacing-6-t-app spacing-3-b-app">
+          <div class="service-each-content-box container-xs margin-left-right-reset padding-left-right-reset">
+            <h2 class="service-each-content-box-heading">Who Can Use This Service?</h2>
+            <p>Anyone can use our telecounseling service — youth, students, parents, families, or individuals facing stress, grief, anxiety, addiction, or emotional confusion. You don't need a diagnosis or a formal referral. If you feel like you need to be heard, this service is for you.</p>
+          </div> <!-- /.service-each-content-box -->
 
-            <div class="card-gradient-border services-support-card">
-              <div class="services-support-card-grid grid-xs grid-2 grid-gap-40">
-                <div class="services-support-card-illustration">
-                  <img src="/static/img/services/flower-illustration.png" alt="Hand holding a flower" class="services-support-card-icon">
-                </div> <!-- /.services-support-card-illustration -->
-                <div class="services-support-card-content">
-                  <h3 class="font-size-base font-medium">Personal Counseling</h3>
-                  <p class="font-size-sm spacing-3-b">Meet face-to-face with a trained counselor in a safe space. Get guidance, emotional clarity, and long-term support for your need.</p>
-                  <a href="/personal-counseling" class="btn btn--yellow-corn services-support-card-btn">Learn More</a>
-                </div> <!-- /.services-support-card-content -->
-              </div> <!-- /.services-support-card-grid -->
-            </div> <!-- /.services-support-card -->
-            
-            <div class="card-gradient-border services-support-card">
-              <div class="services-support-card-grid grid-xs grid-2 grid-gap-40">
-                <div class="services-support-card-illustration">
-                  <img src="/static/img/services/magnifying-glass-illustration.png" alt="Hand holding a magnifying glass" class="services-support-card-icon">
-                </div> <!-- /.services-support-card-illustration -->
-                <div class="services-support-card-content">
-                  <h3 class="font-size-base font-medium">Awareness Programs</h3>
-                  <p class="font-size-sm spacing-3-b">Interactive workshops that build understanding, reduce stigma, and promote well-being in schools, workplaces, churches, and communities.</p>
-                  <a href="/awareness-programs" class="btn btn--yellow-corn services-support-card-btn">Learn More</a>
-                </div> <!-- /.services-support-card-content -->
-              </div> <!-- /.services-support-card-grid -->
-            </div> <!-- /.services-support-card -->
-            
-            <div class="card-gradient-border services-support-card">
-              <div class="services-support-card-grid grid-xs grid-2 grid-gap-40">
-                <div class="services-support-card-illustration">
-                  <img src="/static/img/services/cup-steam-illustration.png" alt="Hand holding a cup with steam" class="services-support-card-icon">
-                </div> <!-- /.services-support-card-illustration -->
-                <div class="services-support-card-content">
-                  <h3 class="font-size-base font-medium">Community Programs</h3>
-                  <p class="font-size-sm spacing-3-b">Peer support, and skill-building sessions designed to strengthen community resilience and address vulnerabilities.</p>
-                  <a href="/community-programs" class="btn btn--yellow-corn services-support-card-btn">Learn More</a>
-                </div> <!-- /.services-support-card-content -->
-              </div> <!-- /.services-support-card -->
-              </div> <!-- /.services-support-card-grid -->
-          </div> <!-- /.services-support-card-block -->
+          <div class="service-each-content-box container-xs margin-left-right-reset padding-left-right-reset">
+            <h2 class="service-each-content-box-heading">Why Do People Call?</h2>
+            <p>People reach out for many reasons, including:</p>
+            <ul>
+              <li>Feeling anxious, overwhelmed, or emotionally low</li>
+              <li>Experiencing relationship or family issues</li>
+              <li>Dealing with grief, trauma, or loss</li>
+              <li>Facing peer pressure, identity questions, or addiction</li>
+              <li>Wanting to talk to someone without judgment</li>
+            </ul>
+            <p>Whatever you're carrying — big or small — you can talk to us.</p>
+          </div> <!-- /.service-each-content-box -->
+
+          <div class="service-each-content-box container-xs margin-left-right-reset padding-left-right-reset">
+            <h2 class="service-each-content-box-heading">How Do I Access Telecounseling?</h2>
+            <ol>
+              <li>Call our helpline number: <a href="tel:9077721082">90777 21082</a> | <a href="tel:9863164425">98631 64425</a></li>
+              <li>A trained listener will answer and speak with you confidentially.</li>
+              <li>If needed, we'll guide you toward further support or connect you with local resources.</li>
+            </ol>
+          </div> <!-- /.service-each-content-box -->
+
+          <div class="service-each-content-box container-xs margin-left-right-reset padding-left-right-reset">
+            <a href="tel:9863164425" class="btn btn--yellow-corn">Call a Helpline</a>
+          </div> <!-- /.service-each-content-box -->
         </div> <!-- /.container-mid -->
       </section>
 
-      <section class="spacing-5-b-app">
-        <div class="services-volunteer-block purple-lavender-bg spacing-3-v">
+      <section class="container-mid">
+        <div class="services-cta-block purple-lavender-bg">
           <div class="container-mid">
-            <h3 class="font-size-base font-medium">Volunteering &amp; Internships</h3>
+            <div class="services-volunteer-grid grid-xs grid-gap-20 grid-gap-40-lg flex-align-center">
+              <div>
+                <h3 class="font-size-base font-medium">Explore Our Resources</h3>
 
-            <p class="font-size-sm">Join TLS as a volunteer or intern. Contribute your time, skills, and passion to create safe spaces and spread mental health awareness.</p>
-
-            <p class="font-size-sm font-semi-bold margin-reset">Be Part of the Change</p>
+                <p class="font-size-sm">We've collected resources, stories, and guidance for you—so you can better understand your emotions, cope with challenges, and feel supported along the way.</p>
+              </div>
+              <div>
+                <a href="/" class="btn btn--yellow-corn services-support-card-btn">Read More</a>
+              </div>
+            </div>
           </div> <!-- /.container-mid -->
-        </div> <!-- /.container-lg -->
+        </div> <!-- /.services-cta-block -->
       </section>
 
       <section class="spacing-5-b-app">
