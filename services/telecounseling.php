@@ -7,6 +7,7 @@
     <meta name="title" content="The Listening Station">
     <?php include "../includes/head-meta.php"; ?>
     <?php include "../includes/head.php"; ?>
+    <link rel="stylesheet" href="/static/css/libs/accordion.css">
     <link rel="stylesheet" href="/static/css/style.css">
   </head>
   <body>
@@ -15,7 +16,7 @@
       <section>
         <div class="banner-block yellow-corn-bg spacing-7-v-app">
           <div class="container-mid">
-            <div class="banner-container-service-each grid grid-gap-20 grid-gap-40-sm">
+            <div class="banner-container-service-each grid grid-gap-20">
               <div class="banner-container-service-each-img-block">
                 <img src="/static/img/services/telecounseling.png" alt="Hand holding a phone" class="services-support-card-icon" width="465" height="524">
               </div>
@@ -33,12 +34,12 @@
 
       <section>
         <div class="container-mid spacing-6-t-app spacing-3-b-app">
-          <div class="service-each-content-box container-xs margin-left-right-reset padding-left-right-reset">
+          <div class="service-each-content-box">
             <h2 class="service-each-content-box-heading">Who Can Use This Service?</h2>
             <p>Anyone can use our telecounseling service — youth, students, parents, families, or individuals facing stress, grief, anxiety, addiction, or emotional confusion. You don't need a diagnosis or a formal referral. If you feel like you need to be heard, this service is for you.</p>
           </div> <!-- /.service-each-content-box -->
 
-          <div class="service-each-content-box container-xs margin-left-right-reset padding-left-right-reset">
+          <div class="service-each-content-box">
             <h2 class="service-each-content-box-heading">Why Do People Call?</h2>
             <p>People reach out for many reasons, including:</p>
             <ul>
@@ -51,7 +52,7 @@
             <p>Whatever you're carrying — big or small — you can talk to us.</p>
           </div> <!-- /.service-each-content-box -->
 
-          <div class="service-each-content-box container-xs margin-left-right-reset padding-left-right-reset">
+          <div class="service-each-content-box">
             <h2 class="service-each-content-box-heading">How Do I Access Telecounseling?</h2>
             <ol>
               <li>Call our helpline number: <a href="tel:9077721082">90777 21082</a> | <a href="tel:9863164425">98631 64425</a></li>
@@ -60,7 +61,7 @@
             </ol>
           </div> <!-- /.service-each-content-box -->
 
-          <div class="service-each-content-box container-xs margin-left-right-reset padding-left-right-reset">
+          <div class="service-each-content-box">
             <a href="tel:9863164425" class="btn btn--yellow-corn">Call a Helpline</a>
           </div> <!-- /.service-each-content-box -->
         </div> <!-- /.container-mid -->
@@ -83,21 +84,39 @@
         </div> <!-- /.services-cta-block -->
       </section>
 
-      <section class="spacing-5-b-app">
+      <section class="spacing-9-v-app">
         <div class="container-mid">
-          <h2 class="show-on-screen-reader">Testimonial</h2>
-          <div class="h2 font-medium">
-            <p class="spacing-t">When I first reached out to The Listening Station, I was going through a very dark and confusing time. I didn’t know if I could speak about what I was feeling. But the person on the other side just listened — without judgment. That moment helped me begin my journey toward healing. I feel lighter, and I now know that help is available when we ask for it.</p>
-          </div>            
-          <div class="spacing-2-t">
-            <div>– Tiajungla Aier, Dimapur</div>
-          </div>
+          <h2 class="heading-title">Telecounseling - FAQs</h2>
+          <div class="accordion" data-multiple="false" role="tablist">
+            <div class="accordion-item" role="tab">
+              <button class="accordion-item-title" id="accordion-title-1" aria-expanded="false" aria-controls="accordion-content-1" type="button" tabindex="0">
+                Accordion Title 1
+              </button>
+              <div class="accordion-item-content" id="accordion-content-1" role="tabpanel" aria-labelledby="accordion-title-1" hidden="">
+                <div class="accordion-item-content-inner">
+                  Accordion content goes here...
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item" role="tab">
+              <button class="accordion-item-title" id="accordion-title-2" aria-expanded="false" aria-controls="accordion-content-2" type="button" tabindex="0">
+                Accordion Title 2
+              </button>
+              <div class="accordion-item-content" id="accordion-content-2" role="tabpanel" aria-labelledby="accordion-title-2" hidden="">
+                <div class="accordion-item-content-inner">
+                  More accordion content...
+                </div>
+              </div>
+            </div>
+          </div> <!-- /.accordion --> 
         </div> <!-- /.container-mid -->
       </section>
 
     </main>
 
     <?php include "../includes/footer.php"; ?>
+    <script type="text/javascript" src="/static/js/libs/accordion.js"></script>
     <script type="text/javascript" src="/static/js/main.js"></script>
   </body>
 </html>

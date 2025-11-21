@@ -14,9 +14,11 @@
             <li><a href="/about" class="nav-link">About</a></li>
             <li class="nav-list-li-dropdown js-nav-list-li-dropdown"><a href="#" class="nav-link nav-link--dropdown js-nav-link-dropdown">Services</a>
               <ul class="nav-dropdown js-nav-dropdown list-reset">
-                <li><a href="/services/services">Our Services</a></li>
+                <li><a href="/services/our-services">Our Services</a></li>
                 <li><a href="/services/telecounseling">Telecounseling</a></li>
-                <li><a href="/clap">sdsd</a></li>
+                <li><a href="/services/personal-counseling">Personal Counseling</a></li>
+                <li><a href="/services/awareness-programs">Awareness Programs</a></li>
+                <li><a href="/services/community-programs">Community Programs</a></li>
               </ul>
             </li>
             <li><a href="/resources" class="nav-link">Resources</a></li>

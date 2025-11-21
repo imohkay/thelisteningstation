@@ -36,7 +36,7 @@
                 <div class="services-support-card-content">
                   <h3 class="font-size-base font-medium">Telecounseling</h3>
                   <p class="font-size-sm spacing-3-b">Speak with a trained listener over the phone, from the comfort of your own space. Free, accessible, and when you need it most.</p>
-                  <a href="/telecounseling" class="btn btn--yellow-corn services-support-card-btn">Learn More</a>
+                  <a href="/services/telecounseling" class="btn btn--yellow-corn services-support-card-btn">Learn More</a>
                 </div> <!-- /.services-support-card-content -->
               </div> <!-- /.services-support-card-grid -->
             </div> <!-- /.services-support-card -->
@@ -49,7 +49,7 @@
                 <div class="services-support-card-content">
                   <h3 class="font-size-base font-medium">Personal Counseling</h3>
                   <p class="font-size-sm spacing-3-b">Meet face-to-face with a trained counselor in a safe space. Get guidance, emotional clarity, and long-term support for your need.</p>
-                  <a href="/personal-counseling" class="btn btn--yellow-corn services-support-card-btn">Learn More</a>
+                  <a href="/services/personal-counseling" class="btn btn--yellow-corn services-support-card-btn">Learn More</a>
                 </div> <!-- /.services-support-card-content -->
               </div> <!-- /.services-support-card-grid -->
             </div> <!-- /.services-support-card -->
@@ -62,7 +62,7 @@
                 <div class="services-support-card-content">
                   <h3 class="font-size-base font-medium">Awareness Programs</h3>
                   <p class="font-size-sm spacing-3-b">Interactive workshops that build understanding, reduce stigma, and promote well-being in schools, workplaces, churches, and communities.</p>
-                  <a href="/awareness-programs" class="btn btn--yellow-corn services-support-card-btn">Learn More</a>
+                  <a href="/services/awareness-programs" class="btn btn--yellow-corn services-support-card-btn">Learn More</a>
                 </div> <!-- /.services-support-card-content -->
               </div> <!-- /.services-support-card-grid -->
             </div> <!-- /.services-support-card -->
@@ -75,7 +75,7 @@
                 <div class="services-support-card-content">
                   <h3 class="font-size-base font-medium">Community Programs</h3>
                   <p class="font-size-sm spacing-3-b">Peer support, and skill-building sessions designed to strengthen community resilience and address vulnerabilities.</p>
-                  <a href="/community-programs" class="btn btn--yellow-corn services-support-card-btn">Learn More</a>
+                  <a href="/services/community-programs" class="btn btn--yellow-corn services-support-card-btn">Learn More</a>
                 </div> <!-- /.services-support-card-content -->
               </div> <!-- /.services-support-card -->
               </div> <!-- /.services-support-card-grid -->

@@ -25,10 +25,10 @@
 /* VARIABLES */
 
 :root {
-  --purple-lavender: #937EB0;
-  --orange-marigold:    #F69E20;
-  --yellow-corn:     #EFC64B;
-
+  --purple-lavender:  #937EB0;
+  --orange-marigold:  #F69E20;
+  --yellow-corn:      #EFC64B;
+  --yellow-corn-dark: #DDAA10 ; 
   --black:     #000000;
   --grey-coal: #1F1F1F;
   --grey-soot: #25133C;
@@ -1308,6 +1308,10 @@ textarea.form-input {
     align-items: center;*/
   }
 
+  .nav-list a:hover {
+    color: var(--yellow-corn-dark);
+  }
+
   .nav-dropdown {
     background-color: var(--white);
     border-radius: var(--border-radius-4);
@@ -1880,6 +1884,7 @@ textarea.form-input {
 
 .service-each-content-box {
   margin-bottom: var(--spacing-4);
+  max-width: 700px;
 }
 
 .service-each-content-box-heading {

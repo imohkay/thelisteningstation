@@ -1,0 +1,71 @@
+/* --------------------------------------------- */
+/* COMPONENTS: ACCORDION / COLLAPSIBLE */
+/* Uses JavaScript */
+
+.accordion-item {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.accordion-item-title {
+  background-color: var(--white);
+  border: none;
+  font-weight: var(--font-medium);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  position: relative;
+  width: 100%;
+  padding: calc(var(--spacing) * 1.5);
+  display: flex;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion-item-title:after {
+  content: url(/static/img/icons/caret-down.svg);
+  position: absolute;
+  right: calc(var(--spacing) * 1.5);
+  top: 50%;
+  transform: translateY(-50%);
+}
+  
+.accordion-item-title:hover {
+  background-color: var(--gray-platinum);
+}
+
+.accordion-item-title--active {
+}
+
+.accordion-item-title--active:after {
+  content: url(/static/img/icons/caret-up.svg);
+}
+
+.accordion-item-content {
+  padding: 0 calc(var(--spacing) * 1.5) calc(var(--spacing) * 1.5) calc(var(--spacing) * 1.5);
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  height: auto;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.accordion-item-content--active {               
+  opacity: 1;
+  border-top-color: transparent;
+  max-height: 1500px;     
+}
+
+// Ensure content is properly hidden for screen readers
+.accordion-item-content[hidden] {
+  display: none;
+}
+
+@media(min-width: 670px) {
+  .accordion-item-title {
+    padding-top: var(--spacing-4);
+    padding-bottom: var(--spacing-4);
+  }
+
+  .accordion-item-content {
+    padding-bottom: var(--spacing-4);
+  }
+}
