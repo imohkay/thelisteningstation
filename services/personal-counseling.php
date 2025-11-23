@@ -4,7 +4,7 @@
     <title>The Listening Station: Services: Personal Counseling</title>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="title" content="The Listening Station">
+    <meta name="title" content="The Listening Station: Services: Personal Counseling">
     <?php include "../includes/head-meta.php"; ?>
     <?php include "../includes/head.php"; ?>
     <link rel="stylesheet" href="/static/css/libs/accordion.css">
@@ -16,12 +16,12 @@
       <section>
         <div class="banner-block yellow-corn-bg spacing-7-v-app">
           <div class="container-mid">
-            <div class="banner-container-service-each grid grid-gap-20">
-              <div class="banner-container-service-each-img-block">
+            <div class="banner-container-service-each grid-xs-2-1 grid grid-gap-20">
+              <div class="banner-container-service-each-img-block order-2-xs">
                 <img src="/static/img/services/counseling.png" alt="Hand holding a flower" class="services-support-card-icon" width="422" height="511">
               </div>
               <div>
-                <h2 class="h1 banner-container-service-each-heading">One-on-One Support for Deeper Healing</h2>
+                <h2 class="h1 banner-inner-page-heading">One-on-One Support for Deeper Healing</h2>
                 <div>
                   <h4 class="font-size-base">What is Personal Counseling?</h4>
                   <p class="spacing-t">Personal counseling is a one-on-one, face-to-face process where an individual meets with a trained counselor to talk through emotional, mental, or behavioral challenges in a safe and confidential space. It provides deeper and more personalized guidance than a single conversation and is especially helpful for ongoing stress or complex personal issues.</p>

@@ -1,8 +1,8 @@
 <header class="header">
   <div class="container-full">
     <div class="header-grid grid">
-      <div class="header-col-nav">
-        <button class="js-btn-nav-toggle btn-reset btn-nav-toggle">
+      <div class="header-col-nav order-2-lg">
+        <button class="js-btn-nav-toggle btn-nav-toggle btn btn--yellow-corn btn--sm">
           <span class="show-on-screen-reader">Menu</span>
           <span class="menu-line menu-line--1" aria-hidden="true"></span>
           <span class="menu-line menu-line--2" aria-hidden="true"></span>
@@ -33,7 +33,7 @@
       </div> <!-- /.gutter -->
       <div class="gutter-lg header-col-btn">
         <!-- <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_QOw2vDtJ9S9gqc" async> </script> </form> -->
-        <a href="/get-involved" class="btn btn--purple-lavender btn--sm text-uppercase btn-header-donate">Donate</a>
+        <a href="/donate" class="btn btn--purple-lavender btn--sm text-uppercase btn-header-donate">Donate</a>
       </div> <!-- /.header-logo-nav -->
     </div> <!-- /.grid -->
   </div> <!-- /.container -->

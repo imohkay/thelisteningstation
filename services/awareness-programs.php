@@ -4,7 +4,7 @@
     <title>The Listening Station: Services: Awareness Programs</title>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="title" content="The Listening Station">
+    <meta name="title" content="The Listening Station: Services: Awareness Programs">
     <?php include "../includes/head-meta.php"; ?>
     <?php include "../includes/head.php"; ?>
     <link rel="stylesheet" href="/static/css/libs/accordion.css">
@@ -16,12 +16,12 @@
       <section>
         <div class="banner-block yellow-corn-bg spacing-7-v-app">
           <div class="container-mid">
-            <div class="banner-container-service-each grid grid-gap-20">
-              <div class="banner-container-service-each-img-block">
+            <div class="banner-container-service-each grid-xs-2-1 grid grid-gap-20">
+              <div class="banner-container-service-each-img-block order-2-xs">
                 <img src="/static/img/services/awareness.png" alt="Hand holding a magnifying glass" class="services-support-card-icon" width="533" height="569">
               </div>
               <div>
-                <h2 class="h1 banner-container-service-each-heading">Educating for a Mentally Healthy Future</h2>
+                <h2 class="h1 banner-inner-page-heading">Educating for a Mentally Healthy Future</h2>
                 <div>
                   <h4 class="font-size-base">What Are Mental Health Awareness Programs?</h4>
                   <p class="spacing-t">TLS conducts interactive programs to educate, start conversations, and reduce stigma around emotional well-being. These sessions are tailored to different groups and cover practical topics like stress management, early signs of distress, peer support, and resilience-building.</p>

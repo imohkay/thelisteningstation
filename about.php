@@ -4,7 +4,7 @@
     <title>The Listening Station: About</title>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="title" content="The Listening Station">
+    <meta name="title" content="The Listening Station: About">
     <?php include "includes/head-meta.php"; ?>
     <?php include "includes/head.php"; ?>
     <link rel="stylesheet" href="/static/css/style.css">

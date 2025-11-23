@@ -4,7 +4,7 @@
     <title>The Listening Station: Services: Community Programs</title>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="title" content="The Listening Station">
+    <meta name="title" content="The Listening Station: Services: Community Programs">
     <?php include "../includes/head-meta.php"; ?>
     <?php include "../includes/head.php"; ?>
     <link rel="stylesheet" href="/static/css/libs/accordion.css">
@@ -16,12 +16,12 @@
       <section>
         <div class="banner-block yellow-corn-bg spacing-7-v-app">
           <div class="container-mid">
-            <div class="banner-container-service-each grid grid-gap-20">
-              <div class="banner-container-service-each-img-block">
+            <div class="banner-container-service-each grid-xs-2-1 grid grid-gap-20">
+              <div class="banner-container-service-each-img-block order-2-xs">
                 <img src="/static/img/services/community.png" alt="Hand holding a cup with steam" class="services-support-card-icon" width="472" height="452">
               </div>
               <div>
-                <h2 class="h1 banner-container-service-each-heading">Grassroots Programs for Lasting Change</h2>
+                <h2 class="h1 banner-inner-page-heading">Grassroots Programs for Lasting Change</h2>
                 <div>
                   <h4 class="font-size-base">What Are Community Programs?</h4>
                   <p class="spacing-t">TLS regularly conducts community-based programs to strengthen emotional well-being, address youth vulnerabilities, and create supportive environments for individuals and families. These are participatory, culturally rooted, and community-owned — ensuring deeper impact and sustainability.</p>

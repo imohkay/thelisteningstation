@@ -4,7 +4,7 @@
     <title>The Listening Station: Services</title>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="title" content="The Listening Station">
+    <meta name="title" content="The Listening Station: Services">
     <?php include "../includes/head-meta.php"; ?>
     <?php include "../includes/head.php"; ?>
     <link rel="stylesheet" href="/static/css/style.css">
@@ -30,7 +30,7 @@
           <div class="services-support-card-block grid grid-xs-2 grid-gap-20">
             <div class="card-gradient-border services-support-card">
               <div class="services-support-card-grid grid-xs grid-2 grid-gap-40">
-                <div class="services-support-card-illustration">
+                <div class="services-support-card-illustration order-2-xs">
                   <img src="/static/img/services/telecounseling.png" alt="Hand holding a phone" class="services-support-card-icon" width="233" height="262">
                 </div> <!-- /.services-support-card-illustration -->
                 <div class="services-support-card-content">
@@ -43,7 +43,7 @@
 
             <div class="card-gradient-border services-support-card">
               <div class="services-support-card-grid grid-xs grid-2 grid-gap-40">
-                <div class="services-support-card-illustration">
+                <div class="services-support-card-illustration order-2-xs">
                   <img src="/static/img/services/counseling.png" alt="Hand holding a flower" class="services-support-card-icon">
                 </div> <!-- /.services-support-card-illustration -->
                 <div class="services-support-card-content">
@@ -56,7 +56,7 @@
             
             <div class="card-gradient-border services-support-card">
               <div class="services-support-card-grid grid-xs grid-2 grid-gap-40">
-                <div class="services-support-card-illustration">
+                <div class="services-support-card-illustration order-2-xs">
                   <img src="/static/img/services/awareness.png" alt="Hand holding a magnifying glass" class="services-support-card-icon" width="267" height="285">
                 </div> <!-- /.services-support-card-illustration -->
                 <div class="services-support-card-content">
@@ -69,7 +69,7 @@
             
             <div class="card-gradient-border services-support-card">
               <div class="services-support-card-grid grid-xs grid-2 grid-gap-40">
-                <div class="services-support-card-illustration">
+                <div class="services-support-card-illustration order-2-xs">
                   <img src="/static/img/services/community.png" alt="Hand holding a cup with steam" class="services-support-card-icon" width="236" height="226">
                 </div> <!-- /.services-support-card-illustration -->
                 <div class="services-support-card-content">

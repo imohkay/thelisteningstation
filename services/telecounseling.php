@@ -4,7 +4,7 @@
     <title>The Listening Station: Services: Telecounseling</title>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="title" content="The Listening Station">
+    <meta name="title" content="The Listening Station: Services: Telecounseling">
     <?php include "../includes/head-meta.php"; ?>
     <?php include "../includes/head.php"; ?>
     <link rel="stylesheet" href="/static/css/libs/accordion.css">
@@ -16,12 +16,12 @@
       <section>
         <div class="banner-block yellow-corn-bg spacing-7-v-app">
           <div class="container-mid">
-            <div class="banner-container-service-each grid grid-gap-20">
-              <div class="banner-container-service-each-img-block">
+            <div class="banner-container-service-each grid-xs-2-1 grid grid-gap-20">
+              <div class="banner-container-service-each-img-block order-2-xs">
                 <img src="/static/img/services/telecounseling.png" alt="Hand holding a phone" class="services-support-card-icon" width="465" height="524">
               </div>
               <div>
-                <h2 class="h1 banner-container-service-each-heading">When you need someone to talk to, we're here to listen.</h2>
+                <h2 class="h1 banner-inner-page-heading">When you need someone to talk to, we're here to listen.</h2>
                 <div>
                   <h4 class="font-size-base">What is Telecounseling?</h4>
                   <p class="spacing-t">Telecounseling is a form of mental health support offered over the phone. It allows individuals to speak with a trained listener or counselor from the privacy and comfort of their own space. It's a safe, confidential, and accessible way to talk about what you're going through — especially when face-to-face support isn't possible.</p>
