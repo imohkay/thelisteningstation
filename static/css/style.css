@@ -93,7 +93,7 @@
 
   --media-lg: 1160px;
   --media-mid: 970px;
-  --media-sm:  770px;
+  --media-sm:  768px;
   --media-xs:  670px;
 
   --grid-gap-10: 10px;
@@ -708,7 +708,7 @@ h6, .h6 {
   }
 }
 
-@media (min-width: 770px) {
+@media (min-width: 768px) {
   .grid-sm {
     display: grid;
   }
@@ -1015,7 +1015,7 @@ li {
   font-weight: 500;
   font-size: var(--font-size-xs);
   text-align: center;
-  padding: calc(var(--spacing) * 1.5) var(--spacing-3);
+  padding: calc(var(--spacing) * 1.4) var(--spacing-3);
   display: inline-block;
   transition: all 0.2s linear;
   cursor: pointer;
@@ -1043,6 +1043,7 @@ li {
 .btn--tag {
   font-weight: var(--font-regular);
   border-radius: var(--border-radius-20);
+  padding: calc(var(--spacing) * 0.75) calc(var(--spacing) * 1.5);
 }
 
 /* Button: Yellow Corn: Modifier Class */
@@ -1201,14 +1202,14 @@ textarea.form-input {
 
 .nav {
   position: relative;
-}
-
-.nav--active {
   z-index: var(--z-index-menu);
 }
 
+.nav--active {
+}
+
 .nav-link {
-  color: var(--color-font);
+  color: var(--white);
   font-size: var(--font-size-xs);
   display: inline-block;
   padding: var(--spacing-half) 0;
@@ -1228,18 +1229,15 @@ textarea.form-input {
   transform: rotate(180deg);
 }
 
-.nav-link:hover {
-  color: var(--yellow-corn);
-}
-
 .btn-nav-toggle {
   background-color: var(--yellow-corn);
-  position: fixed;
-  top: var(--spacing-2);
-  left: var(--grid-gap-20);
   cursor: pointer;
   min-height: 0;
   padding: var(--spacing);
+}
+
+.btn-nav-toggle:focus {
+  box-shadow: none;
 }
 
 .menu-line {
@@ -1256,7 +1254,9 @@ textarea.form-input {
 }
 
 .btn-nav-toggle--active {
-  top: 8px;
+  position: fixed;
+  top: var(--spacing-2);
+  left: var(--grid-gap-20);
   z-index: calc(var(--z-index-menu) + 1);
 }
 
@@ -1302,9 +1302,14 @@ textarea.form-input {
   display: block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .nav-dropdown {
     position: static;
+    padding-left: var(--spacing-2);
+  }
+
+  .nav-link--dropdown::after {
+    filter: brightness(10);    
   }
 }
 
@@ -1317,7 +1322,7 @@ textarea.form-input {
 }
 
 
-@media(min-width: 1030px) {
+@media(min-width: 768px) {
   .header {
 /*    padding-bottom: var(--spacing-6);*/
   }
@@ -1339,21 +1344,13 @@ textarea.form-input {
     order: 3;
   }
 
-  .body--menu-alt .nav-link {
-    color: var(--blue-brand);
-  }
-
   .nav-link {
+    color: var(--color-font);
     padding-left: calc(var(--spacing) * 0.25);
     padding-right: calc(var(--spacing) * 0.25);
   }
 
-  .nav-list {
-    /*display: flex;
-    align-items: center;*/
-  }
-
-  .nav-list a:hover {
+  .nav-link:hover {
     color: var(--yellow-corn-dark);
   }
 
@@ -1366,24 +1363,23 @@ textarea.form-input {
   }
 
   .nav-dropdown a {
-    color: var(--white);
-    font-size: var(--font-size-xs);
     padding: var(--spacing-half) var(--spacing);
     margin: var(--spacing-half) 0;
-    display: block;
   }
 
-  .nav-dropdown a:hover {
-    color: #eee;
-  }
-
-  
   .btn-nav-toggle, .btn-nav-close {
     display: none;
   }
 }
 
-@media (max-width: 1029px) {
+.nav-dropdown a {
+  color: var(--white);
+  font-size: var(--font-size-xs);
+  display: block;
+}
+
+
+@media (max-width: 767px) {
   .header-col-btn {
     margin-left: auto;
   }
@@ -1392,6 +1388,7 @@ textarea.form-input {
     background-color: var(--yellow-corn);
     padding: var(--spacing) var(--spacing-3);
     width: 100%;
+    height: 100vh;
     right: 0;
     left: 0;
     position: fixed;
@@ -1419,8 +1416,6 @@ textarea.form-input {
 
   .nav-dropdown a {
     padding: var(--spacing-half) 0 var(--spacing-half) 0;
-    display: block;
-    font-size: var(--font-size-base);
   }
 
   .nav-link--active {
@@ -1523,7 +1518,7 @@ textarea.form-input {
   }
 }
 
-@media (min-width: 770px) {
+@media (min-width: 768px) {
   .banner-inner {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -1775,23 +1770,157 @@ textarea.form-input {
   /*position: relative;
   width: 100%;
   aspect-ratio: 1;*/
-  display: flex;
+/*  display: flex;
   align-items: center;
-  justify-content: center;
-/*  overflow: hidden;*/
-  background-size: 100%;
+  justify-content: center; */
+  /*  overflow: hidden;*/
+/*  background-size: 100%;
   background-position: center top;
-  background-repeat: no-repeat;
-  border-radius: var(--border-radius-4);
+  background-repeat: no-repeat;*/
+/*  border-radius: var(--border-radius-4);*/
+  border-radius: var(--border-radius-5);
+  transition: all 0.3s ease;
+  position: relative;
 }
 
-/*.about-team-card-photo {
-  position: relative;
+.about-team-card-photo {
+  /*position: relative;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 2;
-}*/
+  z-index: 2;*/
+  display: block;
+  border-radius: var(--border-radius-5);
+}
+
+/* About: Team Card Clickable */
+.about-team-card {
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
+
+/* About: Team Card Blur Effect */
+.about-team-grid.about-team-grid--blurred .about-team-card:not(.about-team-card--active) {
+  filter: blur(2px);
+  opacity: 1;
+  pointer-events: none;
+}
+
+/* About: Team Section Container */
+.about-team-section-container {
+  position: relative;
+}
+
+/* About: Team Detail Modal */
+.about-team-detail-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  max-width: 900px;
+}
+
+.about-team-detail-modal[aria-hidden="false"] {
+  display: block;
+}
+
+.about-team-detail-card {
+  position: relative;
+  background-color: var(--white);
+  border-radius: var(--border-radius-4);
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  padding: var(--spacing);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.about-team-detail-close {
+  position: absolute;
+  top: var(--spacing-2);
+  right: var(--spacing-2);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: var(--spacing);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--grey-soot);
+  transition: color 0.2s ease;
+  z-index: 10;
+}
+
+.about-team-detail-close:hover,
+.about-team-detail-close:focus {
+  color: var(--purple-lavender);
+  outline: none;
+}
+
+.about-team-detail-card-grid {
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.about-team-detail-photo {
+  width: 100%;
+  display: block;
+  border-radius: var(--border-radius-4);
+}
+
+.about-team-detail-content {
+  padding-bottom: var(--spacing-5);
+}
+
+@media (min-width: 670px) {
+
+  .about-team-detail-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: var(--spacing);
+  }
+
+  .about-team-detail-card-grid {
+    grid-template-columns: auto 1fr;
+  }
+
+  .about-team-detail-card {
+    height: auto;
+    max-height: 90vh;
+  }
+
+  .about-team-detail-photo {
+    max-width: 300px;
+  }
+
+  .about-team-detail-content {
+    padding-right: var(--spacing-2);
+    padding-bottom: 0;
+  }
+
+  .about-team-card-image-wrapper:hover {
+    transform: scale(1.2) rotate(5deg);
+    transition: all 0.3s ease;
+    z-index: 2;
+  }
+
+  .about-team-card:nth-of-type(even) .about-team-card-image-wrapper:hover {
+    transform: scale(1.2) rotate(-5deg);
+  }
+}
+
+.about-team-detail-name {
+}
+
+.about-team-detail-title {
+}
+
+.about-team-detail-description {
+}
 
 /* About: Healing Block */
 
@@ -1815,7 +1944,7 @@ textarea.form-input {
 
 .about-healing-img {
   display: block;
-  max-width: 300px;
+  max-width: 280px;
 }
 
 @media (min-width: 670px) {
@@ -2000,15 +2129,9 @@ textarea.form-input {
 }
   
 .resources-card-tags {
-  grid-template-columns: repeat(auto-fit, minmax(0, max-content));
-  justify-content: flex-start;
-  grid-auto-flow: row;
   margin-top: auto;
-}
-
-.resources-tag {
-  justify-self: flex-start;
-  white-space: nowrap;
+  margin-left: calc(var(--grid-gap-10) * -1);
+  margin-right: calc(var(--grid-gap-10) * -1);
 }
 
 .resources-card {
@@ -2115,7 +2238,7 @@ textarea.form-input {
   }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 767px) {
   .hide-media-sm-max {
     display: none;
   }
@@ -2133,7 +2256,7 @@ textarea.form-input {
   }
 }
 
-@media (min-width: 770px) {
+@media (min-width: 768px) {
   .hide-media-sm {
     display: none;
   }

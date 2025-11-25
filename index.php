@@ -29,7 +29,7 @@
                       <img src="/static/img/icons/caret-down.svg" alt="" class="custom-dropdown-icon" aria-hidden="true">
                     </button>
                     <ul class="custom-dropdown-menu" role="menu" aria-hidden="true">
-                      <li role="none"><a href="/how-to-donate" role="menuitem">How to donate to The Listening station.</a></li>
+                      <li role="none"><a href="/donate" role="menuitem">How to donate to The Listening Station</a></li>
                       <li role="none"><a href="/get-support" role="menuitem">Get support</a></li>
                       <li role="none"><a href="/volunteer" role="menuitem">Volunteer</a></li>
                       <li role="none"><a href="/resources" role="menuitem">Resources</a></li>
@@ -54,7 +54,7 @@
             <p class="font-semi-bold spacing-t">Whatever brings you here—you don't have to go through it alone. Reaching out is a brave first step, and we are here to walk with you.</p>
           </div> <!-- /.home-support-content -->
           <div class="spacing-t">
-            <p>Add number here</p>
+            <p><a href="tel:9077721082" class="color-font">90777 21082</a> | <a href="tel:9863164425" class="color-font">98631 64425</a></p>
             <a href="tel:" class="btn btn--yellow-corn">Call a Helpline</a>
           </div> <!-- /.helpline-cta-block -->
         </div> <!-- /.container-mid -->
@@ -64,22 +64,22 @@
         <div class="container-mid spacing-6-t-app spacing-6-b-app">
           <h2 class="white text-center spacing-5-b">Find support, in ways that work for you</h2>
           <div class="home-support-card-block grid grid-xs-2 grid-mid-4 grid-gap-20">
-            <a href="/telecounseling" class="card-gradient-border home-support-card">
+            <a href="/services/telecounseling" class="card-gradient-border home-support-card">
               <p>Speak with someone who listens, from the comfort of your home.</p>
               <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Telecounseling</strong></p>
             </a> <!-- /.home-support-card -->
             
-            <a href="/personal-counseling" class="card-gradient-border home-support-card">
+            <a href="/services/personal-counseling" class="card-gradient-border home-support-card">
               <p>One-on-one sessions for deeper support.</p>
               <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Personal Counseling</strong></p>
             </a> <!-- /.home-support-card -->
             
-            <a href="/awareness-programs" class="card-gradient-border home-support-card">
+            <a href="/services/awareness-programs" class="card-gradient-border home-support-card">
               <p>Workshops and programs that build understanding.</p>
               <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Awareness Programs</strong></p>
             </a> <!-- /.home-support-card -->
             
-            <a href="/youth-engagement" class="card-gradient-border home-support-card">
+            <a href="/services/youth-engagement" class="card-gradient-border home-support-card">
               <p>Safe spaces to share, connect, and grow together.</p>
               <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Youth Engagement</strong></p>
             </a> <!-- /.home-support-card -->
@@ -119,7 +119,7 @@
       <section class="home-find-support-block purple-lavender-bg spacing-5-t-app spacing-9-b-app">
         <div class="container-mid">
           <h2 class="text-center white">Find support, in ways that work for you</h2>
-          <div class="home-find-support-cards spacing-2-t grid grid-xs-2 grid grid-gap-40">
+          <div class="home-find-support-cards spacing-2-t grid grid-xs-3 grid grid-gap-40">
             <div class="home-find-support-card white-bg">
               <h3 class="font-size-base font-medium">Volunteer With Us</h3>
               <p class="font-size-sm">Be part of a compassionate community that listens, supports, and creates safe spaces for healing.</p>

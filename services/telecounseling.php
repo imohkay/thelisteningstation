@@ -77,7 +77,7 @@
                 <p class="font-size-sm">We've collected resources, stories, and guidance for you—so you can better understand your emotions, cope with challenges, and feel supported along the way.</p>
               </div>
               <div>
-                <a href="/" class="btn btn--yellow-corn services-support-card-btn">Read More</a>
+                <a href="/resources" class="btn btn--yellow-corn services-support-card-btn">Read More</a>
               </div>
             </div>
           </div> <!-- /.container-mid -->
@@ -90,22 +90,66 @@
           <div class="accordion" data-multiple="false" role="tablist">
             <div class="accordion-item" role="tab">
               <button class="accordion-item-title" id="accordion-title-1" aria-expanded="false" aria-controls="accordion-content-1" type="button" tabindex="0">
-                Accordion Title 1
+                What is telecounseling?
               </button>
               <div class="accordion-item-content" id="accordion-content-1" role="tabpanel" aria-labelledby="accordion-title-1" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  Telecounseling is a listening and emotional support service over the phone, where you can speak with a trained listener about what you're going through.
                 </div>
               </div>
             </div>
             
             <div class="accordion-item" role="tab">
               <button class="accordion-item-title" id="accordion-title-2" aria-expanded="false" aria-controls="accordion-content-2" type="button" tabindex="0">
-                Accordion Title 2
+                Is it free?
               </button>
               <div class="accordion-item-content" id="accordion-content-2" role="tabpanel" aria-labelledby="accordion-title-2" hidden="">
                 <div class="accordion-item-content-inner">
-                  More accordion content...
+                  Yes, TLS offers telecounseling free of cost as part of its community service.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item" role="tab">
+              <button class="accordion-item-title" id="accordion-title-3" aria-expanded="false" aria-controls="accordion-content-3" type="button" tabindex="0">
+                Who can call?
+              </button>
+              <div class="accordion-item-content" id="accordion-content-3" role="tabpanel" aria-labelledby="accordion-title-3" hidden="">
+                <div class="accordion-item-content-inner">
+                  Anyone — youth, students, parents, individuals in distress — anyone who needs someone to talk to.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item" role="tab">
+              <button class="accordion-item-title" id="accordion-title-4" aria-expanded="false" aria-controls="accordion-content-4" type="button" tabindex="0">
+                Is my conversation confidential?
+              </button>
+              <div class="accordion-item-content" id="accordion-content-4" role="tabpanel" aria-labelledby="accordion-title-4" hidden="">
+                <div class="accordion-item-content-inner">
+                  Yes. Everything you share remains confidential unless there is a serious risk of harm to you or others.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item" role="tab">
+              <button class="accordion-item-title" id="accordion-title-5" aria-expanded="false" aria-controls="accordion-content-5" type="button" tabindex="0">
+                How long is a session?
+              </button>
+              <div class="accordion-item-content" id="accordion-content-5" role="tabpanel" aria-labelledby="accordion-title-5" hidden="">
+                <div class="accordion-item-content-inner">
+                  A typical call lasts between 45-50 minutes, depending on your need.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item" role="tab">
+              <button class="accordion-item-title" id="accordion-title-6" aria-expanded="false" aria-controls="accordion-content-6" type="button" tabindex="0">
+                Do I have to call at a specific time?
+              </button>
+              <div class="accordion-item-content" id="accordion-content-6" role="tabpanel" aria-labelledby="accordion-title-6" hidden="">
+                <div class="accordion-item-content-inner">
+                  We believe in always being there for our client. We are available 24/7.
                 </div>
               </div>
             </div>

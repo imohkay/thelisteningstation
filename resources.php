@@ -38,7 +38,7 @@
           </div>
 
           <div class="resources-stories-grid grid grid-xs-2 grid-mid-3 grid-gap-20">
-            <a href="" class="resources-card">
+            <a href="" class="resources-card js-resources-card">
               <div class="resources-card-img-block">
                 <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
               </div>
@@ -53,7 +53,7 @@
               </div>
             </a>
 
-            <a href="" class="resources-card">
+            <a href="https://reframe2024.mhi.org.in/context/warriors-within-decoding-the-paradox-of-strength-and-vulnerability-among-the-naga-tribe/" class="resources-card js-resources-card">
               <div class="resources-card-img-block">
                 <img src="/static/img/resources/warrior-within.jpg" width="720" height="400" class="resources-card-img">
               </div>
@@ -68,7 +68,7 @@
               </div>
             </a>
 
-            <a href="" class="resources-card">
+            <a href="" class="resources-card js-resources-card">
               <div class="resources-card-img-block">
                 <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
               </div>
@@ -82,7 +82,7 @@
               </div>
             </a>
 
-            <a href="" class="resources-card">
+            <a href="" class="resources-card js-resources-card">
               <div class="resources-card-img-block">
                 <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
               </div>
@@ -97,7 +97,7 @@
               </div>
             </a>
 
-            <a href="" class="resources-card">
+            <a href="" class="resources-card js-resources-card">
               <div class="resources-card-img-block">
                 <img src="/static/img/resources/warrior-within.jpg" width="720" height="400" class="resources-card-img">
               </div>
@@ -112,7 +112,7 @@
               </div>
             </a>
 
-            <a href="" class="resources-card">
+            <a href="" class="resources-card js-resources-card">
               <div class="resources-card-img-block">
                 <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
               </div>
@@ -127,9 +127,9 @@
             </a>
           </div> <!-- /.resources-stories-grid -->
 
-          <div class="resources-cta text-center spacing-5-t-app">
-            <a href="/resources" class="btn btn--yellow-corn">Read More</a>
-          </div>
+          <!-- <div class="resources-cta text-center spacing-5-t-app">
+            <a href="/resources" class="btn btn--yellow-corn js-btn--view-more-resources">Read More</a>
+          </div> -->
         </div> <!-- /.container-lg -->
       </section>
 
@@ -137,5 +137,38 @@
 
     <?php include "includes/footer.php"; ?>
     <script type="text/javascript" src="/static/js/main.js"></script>
+
+    <script>
+      // Related Articles View More Section
+      // Show 6 cards, hide the rest and toggle the list with View More Button
+      const teamCards = document.querySelectorAll('.js-resources-card');
+      const viewMoreBtn = document.querySelector('.js-btn--view-more-resources');
+      
+      // Initially hide cards after the first 3
+      for (let i = 3; i < teamCards.length; i++) {
+        teamCards[i].classList.add('hide');
+      }
+
+      viewMoreBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        // Toggle visibility of cards after the first 3
+        for (let i = 3; i < teamCards.length; i++) {
+          teamCards[i].classList.toggle('hide');
+        }
+        
+        // Toggle button text and icon rotation
+        if (viewMoreBtn.textContent === 'Read More') {
+          viewMoreBtn.textContent = 'Read Less';
+        } else {
+          viewMoreBtn.textContent = 'Read More';
+          
+          // Scroll to the view more button when clicking "View Less"
+          setTimeout(function() {
+            viewMoreBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 100);
+        }
+      });      
+    </script>
   </body>
 </html>

@@ -47,10 +47,9 @@
           <div class="service-each-content-box">
             <h2 class="service-each-content-box-heading">How to Attend or Arrange a Program</h2>
             <ol>
-              <li>Reach out to The Listening Station — [TLS Phone Number] / [TLS Email Address]</li>
-              <li>Or use the Contact Form on our website</li>
+              <li>Reach out to The Listening Station — <a href="tel:9077721082">90777 21082</a> | <a href="tel:9863164425">98631 64425</a> / <a href="mailto:tlsnagaland@gmail.com">tlsnagaland@gmail.com</a>.</li>
               <li>Share group/organization name, preferred topics, location, and date preferences</li>
-              <li>We’ll plan a session with you and bring our facilitators to your space</li>
+              <li>We'll plan a session with you and bring our facilitators to your space</li>
             </ol>
           </div> <!-- /.service-each-content-box -->
         </div> <!-- /.container-mid -->
@@ -66,7 +65,7 @@
                 <p class="font-size-sm">We've collected resources, stories, and guidance for you—so you can better understand your emotions, cope with challenges, and feel supported along the way.</p>
               </div>
               <div>
-                <a href="/" class="btn btn--yellow-corn services-support-card-btn">Read More</a>
+                <a href="/resources" class="btn btn--yellow-corn services-support-card-btn">Read More</a>
               </div>
             </div>
           </div> <!-- /.container-mid -->
@@ -83,7 +82,7 @@
               </button>
               <div class="accordion-item-content" id="accordion-content-1" role="tabpanel" aria-labelledby="accordion-title-1" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  We offer interactive sessions on mental health awareness, stress and coping, youth vulnerability, addiction, emotional wellbeing, peer support, and more.
                 </div>
               </div>
             </div>
@@ -94,7 +93,7 @@
               </button>
               <div class="accordion-item-content" id="accordion-content-2" role="tabpanel" aria-labelledby="accordion-title-2" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  Schools, hostels, churches, youth groups, workplaces, community organizations — anyone looking to create a safe and open space for dialogue and learning.
                 </div>
               </div>
             </div>
@@ -105,7 +104,7 @@
               </button>
               <div class="accordion-item-content" id="accordion-content-3" role="tabpanel" aria-labelledby="accordion-title-3" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  No. We also facilitate sessions for parents, caregivers, teachers, and mixed community groups.
                 </div>
               </div>
             </div>
@@ -116,7 +115,7 @@
               </button>
               <div class="accordion-item-content" id="accordion-content-4" role="tabpanel" aria-labelledby="accordion-title-4" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  Most programs are free, especially for local and community-led initiatives. If travel or materials are involved, we may discuss shared support.
                 </div>
               </div>
             </div>
@@ -127,7 +126,7 @@
               </button>
               <div class="accordion-item-content" id="accordion-content-5" role="tabpanel" aria-labelledby="accordion-title-5" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  Contact us through:  <a href="tel:9077721082">90777 21082</a> | <a href="tel:9863164425">98631 64425</a> | <a href="mailto:tlsnagaland@gmail.com">tlsnagaland@gmail.com</a>.
                 </div>
               </div>
             </div>
@@ -138,7 +137,7 @@
               </button>
               <div class="accordion-item-content" id="accordion-content-6" role="tabpanel" aria-labelledby="accordion-title-6" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  Workshops usually last between 60–90 minutes but can be customized based on your time and context.
                 </div>
               </div>
             </div>

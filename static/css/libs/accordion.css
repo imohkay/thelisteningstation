@@ -12,9 +12,10 @@
   font-weight: var(--font-medium);
   font-size: var(--font-size-base);
   font-weight: 600;
+  text-align: left;
   position: relative;
   width: 100%;
-  padding: calc(var(--spacing) * 1.5);
+  padding: calc(var(--spacing) * 1.5) var(--spacing-3) calc(var(--spacing) * 1.5) calc(var(--spacing) * 1.5);
   display: flex;
   cursor: pointer;
   transition: all 0.3s ease-in-out;

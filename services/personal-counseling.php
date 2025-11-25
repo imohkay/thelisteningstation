@@ -67,7 +67,7 @@
                 <p class="font-size-sm">We've collected resources, stories, and guidance for you—so you can better understand your emotions, cope with challenges, and feel supported along the way.</p>
               </div>
               <div>
-                <a href="/" class="btn btn--yellow-corn services-support-card-btn">Read More</a>
+                <a href="/resources" class="btn btn--yellow-corn services-support-card-btn">Read More</a>
               </div>
             </div>
           </div> <!-- /.container-mid -->
@@ -84,7 +84,7 @@
               </button>
               <div class="accordion-item-content" id="accordion-content-1" role="tabpanel" aria-labelledby="accordion-title-1" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  Personal counseling is a face-to-face process where a counselor works with you more closely over a few sessions to support deeper concerns.
                 </div>
               </div>
             </div>
@@ -95,7 +95,7 @@
               </button>
               <div class="accordion-item-content" id="accordion-content-2" role="tabpanel" aria-labelledby="accordion-title-2" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  Youth, families, or individuals referred after a telecounseling call or those directly seeking help with ongoing stress, trauma, addiction, or emotional overwhelm.
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@
               </button>
               <div class="accordion-item-content" id="accordion-content-3" role="tabpanel" aria-labelledby="accordion-title-3" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  Call us or speak to a telecounselor who will help assess if personal counseling is needed. We'll then arrange a suitable time.
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@
               </button>
               <div class="accordion-item-content" id="accordion-content-4" role="tabpanel" aria-labelledby="accordion-title-4" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  This varies. Some people benefit from 2–3 sessions, while others may need longer-term support.
                 </div>
               </div>
             </div>
@@ -128,7 +128,7 @@
               </button>
               <div class="accordion-item-content" id="accordion-content-5" role="tabpanel" aria-labelledby="accordion-title-5" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  No, our services are community-based and free. Donations or contributions are welcome but not required.
                 </div>
               </div>
             </div>

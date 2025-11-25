@@ -1,0 +1,29 @@
+RewriteEngine On
+
+# External redirect: Remove .php extension from URLs (except includes/)
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteCond %{REQUEST_URI} !^/includes/ [NC]
+RewriteRule ^ /%1? [NC,L,R=301]
+
+# Handle special cases FIRST: /resources -> resources.php (before checking if folder exists)
+RewriteCond %{REQUEST_URI} ^/resources/?$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/resources.php -f
+RewriteRule ^resources/?$ resources.php [L]
+
+# Handle special cases FIRST: /services -> services.php (before checking if folder exists)
+RewriteCond %{REQUEST_URI} ^/services/?$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/services.php -f
+RewriteRule ^services/?$ services.php [L]
+
+# Exclude includes directory and actual files from rewriting
+RewriteCond %{REQUEST_URI} ^/includes/ [NC,OR]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Internal rewrite: Add .php extension to any request matching a PHP file (globally)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/includes/ [NC]
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}.php -f
+RewriteRule ^(.*)$ $1.php [L]

@@ -25,7 +25,28 @@
     
     <div class="footer-bottom grid grid-sm-2 grid-gap-20">
       <div class="footer-col footer-col-lists">
-        <div class="footer-lists-wrapper grid-xs grid-2 grid-gap-20">
+        <div class="footer-lists-wrapper grid-xs grid-3 grid-gap-20">
+          
+          <div class="footer-col footer-col-address font-size-xs">
+            <h3 class="font-size-base font-medium">The Listening Station</h3>
+            <p>488 Lengrijan, Taxes Colony,<br>Near Waiting Shed, Dimapur, 797 112</p>
+            <p>0ffice hours: <br>
+              10 AM to 6PM
+            </p>
+          </div> <!-- /.footer-col-contact -->
+
+          <div class="footer-col footer-col-contact">
+            <h3 class="font-size-base font-medium">Contact Us</h3>
+            <ul class="footer-links list-reset">
+              <li class="spacing-2-b font-size-xs">
+                <div>Helpline</div>
+                <a href="tel:9077721082" class="color-font">90777 21082</a> | <a href="tel:9863164425" class="color-font">98631 64425</a>
+                <div class="spacing-2-t">Email</div>
+                <a href="mailto:tlsnagaland@gmail.com" class="color-font">tlsnagaland@gmail.com</a>
+              </li>
+            </ul> <!-- /.footer-links -->
+          </div> <!-- /.footer-col-contact -->
+
           <div class="footer-col footer-col-links">
             <h3 class="font-size-base font-medium">Legal Information</h3>
             <ul class="footer-links list-reset">
@@ -33,14 +54,7 @@
               <li class="spacing-2-b"><a href="/terms-and-conditions" class="footer-link font-size-sm grey-coal">Terms and conditions</a></li>
             </ul> <!-- /.footer-links -->
           </div> <!-- /.footer-col-links -->
-          
-          <div class="footer-col footer-col-contact">
-            <h3 class="font-size-base font-medium">Contact Us</h3>
-            <ul class="footer-links list-reset">
-              <li class="spacing-2-b"><a href="/helpline" class="footer-link font-size-sm grey-coal">Helpline</a></li>
-              <li class="spacing-2-b"><a href="/volunteer" class="footer-link font-size-sm grey-coal">Volunteer</a></li>
-            </ul> <!-- /.footer-links -->
-          </div> <!-- /.footer-col-contact -->
+
         </div> <!-- /.footer-lists-wrapper -->
       </div> <!-- /.footer-col-lists -->
       

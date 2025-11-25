@@ -1,7 +1,7 @@
 <header class="header">
   <div class="container-full">
-    <div class="header-grid grid">
-      <div class="header-col-nav order-2-lg">
+    <div class="header-grid grid grid-gap-20">
+      <div class="header-col-nav order-2-sm">
         <button class="js-btn-nav-toggle btn-nav-toggle btn btn--yellow-corn btn--sm">
           <span class="show-on-screen-reader">Menu</span>
           <span class="menu-line menu-line--1" aria-hidden="true"></span>
@@ -9,12 +9,12 @@
           <span class="menu-line menu-line--3" aria-hidden="true"></span>
         </button>
         <nav class="js-nav nav">
-          <ul class="nav-list list-reset grid-auto-mid grid-gap-40">
+          <ul class="nav-list list-reset grid-auto-sm grid-gap-40">
             <li><a href="/" class="nav-link">Home</a></li>
             <li><a href="/about" class="nav-link">About</a></li>
             <li class="nav-list-li-dropdown js-nav-list-li-dropdown"><a href="#" class="nav-link nav-link--dropdown js-nav-link-dropdown">Services</a>
               <ul class="nav-dropdown js-nav-dropdown list-reset">
-                <li><a href="/services/our-services">Our Services</a></li>
+                <li><a href="/services">Our Services</a></li>
                 <li><a href="/services/telecounseling">Telecounseling</a></li>
                 <li><a href="/services/personal-counseling">Personal Counseling</a></li>
                 <li><a href="/services/awareness-programs">Awareness Programs</a></li>

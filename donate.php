@@ -103,7 +103,7 @@
             
             <div class="card-gradient-border donate-difference-card">
               <h3 class="h1">53+</h3>
-              <p class="margin-reset">in-person counselling session conducted in 2024-25</p>
+              <p class="margin-reset">in-person counselling sessions conducted in 2024-25</p>
             </div> <!-- /.donate-difference-card -->
           </div> <!-- /.donate-difference-card-block -->
         </div> <!--/.container-sm -->

@@ -47,7 +47,7 @@
           <div class="service-each-content-box">
             <h2 class="service-each-content-box-heading">How to Arrange or Attend a Program</h2>
             <ol>
-              <li>Call or message us at [TLS contact number/email]</li>
+              <li>Call or message us at <a href="tel:9077721082">90777 21082</a> | <a href="tel:9863164425">98631 64425</a> / <a href="mailto:tlsnagaland@gmail.com">tlsnagaland@gmail.com</a>.</li>
               <li>Share a few details (group size, location, preferred topics)</li>
               <li>We’ll coordinate with you and bring a trained facilitator or team to your space</li>
             </ol>
@@ -65,7 +65,7 @@
                 <p class="font-size-sm">We've collected resources, stories, and guidance for you—so you can better understand your emotions, cope with challenges, and feel supported along the way.</p>
               </div>
               <div>
-                <a href="/" class="btn btn--yellow-corn services-support-card-btn">Read More</a>
+                <a href="/resources" class="btn btn--yellow-corn services-support-card-btn">Read More</a>
               </div>
             </div>
           </div> <!-- /.container-mid -->

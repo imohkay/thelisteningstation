@@ -29,7 +29,7 @@
       </section>
 
       <section>
-        <div class="container-mid spacing-6-t-app spacing-3-b-app">
+        <div class="container-mid spacing-6-t-app spacing-7-b-app">
           <div class="container-xs margin-reset padding-reset">
             <ol>
               <li class="spacing-4-b-app">
@@ -83,6 +83,57 @@
         </div> <!-- /.container-mid -->
       </section>
 
+      <section>
+        <div class="container-lg">
+          <h2 class="spacing-2-b">Related Articles</h2>          
+          <div class="resources-stories-grid grid grid-xs-2 grid-mid-3 grid-gap-20">
+            <a href="" class="resources-card">
+              <div class="resources-card-img-block">
+                <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
+              </div>
+              <div class="resources-card-body">
+                <p class="resources-card-label spacing-t">Guide</p>
+                <h3 class="resources-card-title h2 font-medium">10 Ways to Manage Stress After Exams</h3>
+                <p class="resources-card-description">Explore practical strategies to reduce exam stress.</p>
+                <div class="resources-card-tags flex grid-gap-10">
+                  <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Youth</span>
+                  <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Stress</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="" class="resources-card">
+              <div class="resources-card-img-block">
+                <img src="/static/img/resources/warrior-within.jpg" width="720" height="400" class="resources-card-img">
+              </div>
+              <div class="resources-card-body">
+                <p class="resources-card-label">Article</p>
+                <h3 class="resources-card-title h2 font-medium">Warriors Within:</h3>
+                <p class="resources-card-description">Decoding the Paradox of Strength and Vulnerability among the Naga Tribe</p>
+                <div class="resources-card-tags flex grid-gap-10">
+                  <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Youth</span>
+                  <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Depression</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="" class="resources-card">
+              <div class="resources-card-img-block">
+                <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
+              </div>
+              <div class="resources-card-body">
+                <p class="resources-card-label">Blog</p>
+                <h3 class="resources-card-title h2 font-medium">Everyone talks about Mental Health — But is anyone actually listening?</h3>
+                <div class="resources-card-tags flex grid-gap-10">
+                  <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Community</span>
+                  <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Adult</span>
+                </div>
+              </div>
+            </a>
+          </div> <!-- /.resources-stories-grid -->
+
+        </div> <!-- /.container-lg -->
+      </section>
     </main>
 
     <?php include "../includes/footer.php"; ?>
