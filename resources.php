@@ -38,7 +38,7 @@
           </div>
 
           <div class="resources-stories-grid grid grid-xs-2 grid-mid-3 grid-gap-20">
-            <a href="" class="resources-card js-resources-card">
+            <a href="/resources/guide" class="resources-card js-resources-card">
               <div class="resources-card-img-block">
                 <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
               </div>
@@ -68,7 +68,7 @@
               </div>
             </a>
 
-            <a href="" class="resources-card js-resources-card">
+            <a href="/resources/blog" class="resources-card js-resources-card">
               <div class="resources-card-img-block">
                 <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
               </div>
@@ -140,7 +140,7 @@
 
     <script>
       // Related Articles View More Section
-      // Show 6 cards, hide the rest and toggle the list with View More Button
+      // Show 3 cards, hide the rest and toggle the list with View More Button
       const teamCards = document.querySelectorAll('.js-resources-card');
       const viewMoreBtn = document.querySelector('.js-btn--view-more-resources');
       

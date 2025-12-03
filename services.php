@@ -83,7 +83,7 @@
         </div> <!-- /.container-mid -->
       </section>
 
-      <section class="spacing-5-b-app">
+      <section class="spacing-5-b-app" id="get-involved.php#volunteer">
         <div class="services-cta-block purple-lavender-bg">
           <div class="container-mid">
             <div class="services-volunteer-grid grid-xs grid-gap-20 flex-align-center">
@@ -95,7 +95,7 @@
                 <p class="font-size-sm font-semi-bold margin-reset-xs">Be Part of the Change</p>
               </div>
               <div>
-                <a href="/" class="btn btn--yellow-corn services-support-card-btn">Learn More</a>
+                <a href="/get-involved.php#volunteer" class="btn btn--yellow-corn services-support-card-btn">Learn More</a>
               </div>
             </div>
           </div> <!-- /.container-mid -->

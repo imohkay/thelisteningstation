@@ -40,7 +40,7 @@
                 <p class="spacing-2-b">Become a trained listener or counselor, help organize events, or support outreach programs and administrative tasks.</p>
               </div>
               <div class="margin-top-auto">
-                <a href="" class="btn btn--yellow-corn">Join as a Volunteer</a>
+                <a href="/get-involved.php#volunteer" class="btn btn--yellow-corn">Join as a Volunteer</a>
               </div>
             </div> <!-- /.get-involved-card -->
             
@@ -50,7 +50,7 @@
                 <p class="spacing-2-b">Mental health professionals, educators, creatives, or tech-savvy individuals can mentor, create content, or support digital tools.</p>
               </div>
               <div class="margin-top-auto">
-                <a href="" class="btn btn--yellow-corn">Contribute Your Skills</a>
+                <a href="/get-involved.php#volunteer" class="btn btn--yellow-corn">Contribute Your Skills</a>
               </div>
             </div> <!-- /.get-involved-card -->
 
@@ -60,7 +60,7 @@
                 <p class="spacing-2-b">Talk about mental health in your community, share TLS posts, and connect those in need to our support services.</p>
               </div>
               <div class="margin-top-auto">
-                <a href="" class="btn btn--yellow-corn">Raise Awareness</a>
+                <a href="/services" class="btn btn--yellow-corn">Raise Awareness</a>
               </div>
             </div> <!-- /.get-involved-card -->
 
@@ -70,7 +70,7 @@
                 <p class="spacing-2-b">Schools, organizations, and community groups can partner with TLS for workshops, sessions, or joint initiatives.</p>
               </div>
               <div class="margin-top-auto">
-                <a href="" class="btn btn--yellow-corn">Partner with TLS</a>
+                <a href="/get-involved/#partner" class="btn btn--yellow-corn">Partner with TLS</a>
               </div>
             </div> <!-- /.get-involved-card -->
             
@@ -80,7 +80,7 @@
                 <p class="spacing-2-b">Donate materials, tools, or provide venues for events and group sessions to help TLS reach more people.</p>
               </div>
               <div class="margin-top-auto">
-                <a href="" class="btn btn--yellow-corn">Provide Resources</a>
+                <a href="/donate" class="btn btn--yellow-corn">Provide Resources</a>
               </div>
             </div> <!-- /.get-involved-card -->
 
@@ -90,7 +90,7 @@
                 <p class="spacing-2-b">Keep TLS in your thoughts and prayers, and advocate for mental health inclusion in community programs and policies.</p>
               </div>
               <div class="margin-top-auto">
-                <a href="" class="btn btn--yellow-corn">Support Through Prayer</a>
+                <a href="/services/awareness-programs" class="btn btn--yellow-corn">Support Through Prayer</a>
               </div>
             </div> <!-- /.get-involved-card -->            
           </div> <!-- /.get-involved-card-block -->
@@ -106,7 +106,7 @@
       </section>
 
       <section class="purple-lavender-bg spacing-6-v-app">
-        <div class="get-involved-partner-block">
+        <div class="get-involved-partner-block" id="partner">
           <div class="container-lg">
             <h2 class="h1 spacing-3-b">Why Partner with The Listening Station?</h2>
             <div class="get-involved-partner-section grid-xs-2-1 grid grid-gap-40">
@@ -160,12 +160,12 @@
             </li>
           </ol>
           <div class="text-center spacing-6-t-app">
-            <a href="mailto:tlsnagaland@gmail.com" class="btn btn--yellow-corn">Write to Us</a>
+            <a href="mailto:tlsnagaland@gmail.com?subject=Looking%20to%20partner%20with%20TLS?" class="btn btn--yellow-corn">Write to Us</a>
           </div>
         </div> <!-- /.container-mid -->
       </section>
 
-      <section class="purple-lavender-bg spacing-6-v-app">
+      <section class="purple-lavender-bg spacing-6-v-app" id="volunteer">
         <div class="container-lg">
           <div class="white">
             <h2 class="h1">Join Us as a Volunteer or Intern</h2>
@@ -219,7 +219,7 @@
               </ul>
               <p class="font-medium">Internship periods are flexible (4–8 weeks).<br>Certificates are provided on completion, and students may also work on project-based or community studies.</p>
               <div class="spacing-6-t-app">
-                <a href="mailto:tlsnagaland@gmail.com" class="btn btn--yellow-corn">Write to Us</a>
+                <a href="mailto:tlsnagaland@gmail.com?subject=Internship or Volunteer%20Application%20-%20Your%20Name" class="btn btn--yellow-corn">Write to Us</a>
               </div>
             </div>
           </div> <!-- /.grid -->

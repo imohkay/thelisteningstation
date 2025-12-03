@@ -30,8 +30,8 @@
                     </button>
                     <ul class="custom-dropdown-menu" role="menu" aria-hidden="true">
                       <li role="none"><a href="/donate" role="menuitem">How to donate to The Listening Station</a></li>
-                      <li role="none"><a href="/get-support" role="menuitem">Get support</a></li>
-                      <li role="none"><a href="/volunteer" role="menuitem">Volunteer</a></li>
+                      <li role="none"><a href="/services/telecounseling" role="menuitem">Get support</a></li>
+                      <li role="none"><a href="/get-involved/#volunteer" role="menuitem">Volunteer</a></li>
                       <li role="none"><a href="/resources" role="menuitem">Resources</a></li>
                     </ul>
                   </div> <!-- /.banner-select-block -->
@@ -55,7 +55,7 @@
           </div> <!-- /.home-support-content -->
           <div class="spacing-t">
             <p><a href="tel:9077721082" class="color-font">90777 21082</a> | <a href="tel:9863164425" class="color-font">98631 64425</a></p>
-            <a href="tel:" class="btn btn--yellow-corn">Call a Helpline</a>
+            <a href="tel:9863164425" class="btn btn--yellow-corn">Call a Helpline</a>
           </div> <!-- /.helpline-cta-block -->
         </div> <!-- /.container-mid -->
       </section> <!-- /.white-bg -->
@@ -79,7 +79,7 @@
               <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Awareness Programs</strong></p>
             </a> <!-- /.home-support-card -->
             
-            <a href="/services/youth-engagement" class="card-gradient-border home-support-card">
+            <a href="/services/community-programs" class="card-gradient-border home-support-card">
               <p>Safe spaces to share, connect, and grow together.</p>
               <p class="font-semi-bold spacing-2-t margin-top-auto"><strong>Youth Engagement</strong></p>
             </a> <!-- /.home-support-card -->
@@ -126,7 +126,7 @@
               <div class="home-find-support-card-illustration spacing-3-v">
                 <img src="/static/img/home/find-support/hand-holding-star.png" alt="Hand holding a yellow star" width="187" height="219" class="home-find-support-card-icon">
               </div> <!-- /.home-find-support-card-illustration -->
-              <a href="/volunteer" class="home-find-support-card-btn btn btn--yellow-corn">Learn More</a>
+              <a href="/get-involved/#volunteer" class="home-find-support-card-btn btn btn--yellow-corn">Learn More</a>
             </div> <!-- /.home-find-support-card -->
             
             <div class="home-find-support-card white-bg">
@@ -135,7 +135,7 @@
               <div class="home-find-support-card-illustration spacing-3-v">
                 <img src="/static/img/home/find-support/hand-holding-pencil.png" alt="Hand holding a pencil" width="187" height="193" class="home-find-support-card-icon">
               </div> <!-- /.home-find-support-card-illustration -->
-              <a href="/internship" class="home-find-support-card-btn btn btn--yellow-corn">View Openings</a>
+              <a href="/get-involved/#volunteer" class="home-find-support-card-btn btn btn--yellow-corn">View Openings</a>
             </div> <!-- /.home-find-support-card -->
             
             <div class="home-find-support-card white-bg">

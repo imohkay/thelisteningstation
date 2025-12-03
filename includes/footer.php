@@ -50,8 +50,8 @@
           <div class="footer-col footer-col-links">
             <h3 class="font-size-base font-medium">Legal Information</h3>
             <ul class="footer-links list-reset">
-              <li class="spacing-2-b"><a href="/privacy-policy" class="footer-link font-size-sm grey-coal">Privacy policy</a></li>
-              <li class="spacing-2-b"><a href="/terms-and-conditions" class="footer-link font-size-sm grey-coal">Terms and conditions</a></li>
+              <li class="spacing-2-b"><a href="/privacy-policy" class="footer-link font-size-xs grey-coal">Privacy policy</a></li>
+              <li class="spacing-2-b"><a href="/terms-and-conditions" class="footer-link font-size-xs grey-coal">Terms and conditions</a></li>
             </ul> <!-- /.footer-links -->
           </div> <!-- /.footer-col-links -->
 
@@ -66,6 +66,6 @@
         </div> <!-- /.footer-logo-block -->
       </div> <!-- /.footer-col-logo -->
     </div> <!-- /.footer-bottom -->
-  <p class="font-size-xs text-center margin-reset spacing-5-t-app">copyrights and developer details here.</p>
+  <p class="font-size-xs text-center margin-reset spacing-5-t-app">&copy; 2025 The Listening Station. All Rights Reserved.</p>
   </div> <!-- /.container-full -->
 </footer>

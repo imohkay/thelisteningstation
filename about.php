@@ -134,7 +134,7 @@
                 <div class="about-healing-content">
                   <h3 class="h2 white">Youth &amp; Adolescents</h3>
                   <p class="white spacing-3-b">Supporting young people through academic pressure, identity struggles, addiction, and peer challenges with safe, stigma-free spaces.</p>
-                  <a href="" class="btn btn--yellow-corn">Start a Conversation</a>
+                  <a href="/services/telecounseling" class="btn btn--yellow-corn">Start a Conversation</a>
                 </div>
               </div> <!-- /.about-healing-item -->
               
@@ -148,7 +148,7 @@
                 <div class="about-healing-content">
                   <h3 class="h2 white">Students</h3>
                   <p class="white spacing-3-b">From high school to college, we provide listening spaces, outreach in educational institutions, and internships that empower students to seek help and grow.</p>
-                  <a href="" class="btn btn--yellow-corn">Reach Out Today</a>
+                  <a href="/services/awareness-programs" class="btn btn--yellow-corn">Reach Out Today</a>
                 </div>
               </div> <!-- /.about-healing-item -->
               
@@ -157,13 +157,12 @@
               </div> <!-- /.about-healing-item -->
             </div> <!-- /.about-healing-row -->
             
-            <!-- Row 3: Text | Image -->
             <div class="about-healing-row grid grid-xs-2 grid-gap-40 spacing-3-b">
               <div class="about-healing-item">
                 <div class="about-healing-content">
                   <h3 class="h2 white">Families &amp; Peers</h3>
                   <p class="white spacing-3-b">Helping families worried about loved ones, and guiding peers who want to support friends in distress. Healing is stronger when shared.</p>
-                  <a href="" class="btn btn--yellow-corn">Explore Resources</a>
+                  <a href="/resources" class="btn btn--yellow-corn">Explore Resources</a>
                 </div>
               </div> <!-- /.about-healing-item -->
               
@@ -172,13 +171,12 @@
               </div> <!-- /.about-healing-item -->
             </div> <!-- /.about-healing-row -->
             
-            <!-- Row 4: Image | Text (reversed) -->
             <div class="about-healing-row about-healing-row--reverse grid grid-xs-2 grid-gap-40 spacing-3-b">
               <div class="about-healing-item">
                 <div class="about-healing-content">
                   <h3 class="h2 white">Individuals in Distress</h3>
                   <p class="white spacing-3-b">Confidential support for those facing grief, trauma, loneliness, or relationship challenges — offering grounding and care in moments of crisis.</p>
-                  <a href="" class="btn btn--yellow-corn">Get Support Now</a>
+                  <a href="/services/personal-counseling" class="btn btn--yellow-corn">Get Support Now</a>
                 </div>
               </div> <!-- /.about-healing-item -->
               
@@ -187,13 +185,12 @@
               </div> <!-- /.about-healing-item -->
             </div> <!-- /.about-healing-row -->
             
-            <!-- Row 5: Text | Image -->
             <div class="about-healing-row grid grid-xs-2 grid-gap-40">
               <div class="about-healing-item">
                 <div class="about-healing-content">
                   <h3 class="h2 white">Communities &amp; Groups</h3>
                   <p class="white spacing-3-b">Engaging local communities through awareness sessions in villages, workplaces, and faith-based spaces — making mental health a shared conversation.</p>
-                  <a href="" class="btn btn--yellow-corn">Host a Session</a>
+                  <a href="/services/community-programs" class="btn btn--yellow-corn">Host a Session</a>
                 </div>
               </div> <!-- /.about-healing-item -->
               
@@ -209,6 +206,8 @@
         <div class="container-lg">
           <h2>Our Partners</h2>
           <p>Our partners make mental health support possible.</p>
+
+          <a href="https://mhi.org.in"><img src="/static/img/about/partners/mhi.svg" alt="Mariwala Health Initiative logo" width="180"></a>
         </div>
       </section>
 

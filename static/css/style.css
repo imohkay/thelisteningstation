@@ -1,3 +1,8 @@
+/*
+- Change to button click on home page banenr
+add back button for guide page as well
+
+*/
 
 /* -------------------------------------*/
 /* FONTS */
@@ -2070,6 +2075,21 @@ textarea.form-input {
     margin-bottom: var(--spacing-7);
   }
 }
+
+
+/* ------------------------------------- */
+/* PAGE: BLOG ARTICLE */
+
+.blog-article-padding {
+  margin-bottom: var(--spacing-4);
+}
+
+@media(min-width: 670px) {
+  .blog-article-padding {
+    margin-bottom: var(--spacing-7);
+  }
+}
+
 
 /* ------------------------------------- */
 /* PAGE: GET INVOLVED */
