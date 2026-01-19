@@ -74,73 +74,140 @@
 
       <section class="spacing-9-v-app">
         <div class="container-mid">
-          <h2 class="heading-title">Personal Counseling &ndash; FAQs</h2>
+          <h2 class="heading-title">Awareness Programs &ndash; FAQs</h2>
           <div class="accordion" data-multiple="false" role="tablist">
             <div class="accordion-item" role="tab">
               <button class="accordion-item-title" id="accordion-title-1" aria-expanded="false" aria-controls="accordion-content-1" type="button" tabindex="0">
-                What kinds of workshops do you offer?
+                What are Awareness Programs?
               </button>
               <div class="accordion-item-content" id="accordion-content-1" role="tabpanel" aria-labelledby="accordion-title-1" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  Awareness Programs are activities designed to educate people about important social, mental health, and community issues. They help people understand problems, reduce stigma, and learn healthy ways to respond.
                 </div>
               </div>
             </div>
             
             <div class="accordion-item" role="tab">
               <button class="accordion-item-title" id="accordion-title-2" aria-expanded="false" aria-controls="accordion-content-2" type="button" tabindex="0">
-                Who can request a workshop?
+                Who can attend these programs?
               </button>
               <div class="accordion-item-content" id="accordion-content-2" role="tabpanel" aria-labelledby="accordion-title-2" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  Anyone can attend—youth, parents, teachers, church members, community leaders, and the general public.
                 </div>
               </div>
             </div>
 
             <div class="accordion-item" role="tab">
               <button class="accordion-item-title" id="accordion-title-3" aria-expanded="false" aria-controls="accordion-content-3" type="button" tabindex="0">
-                Are the sessions only for youth?
+                What topics do you cover in your Awareness Programs?
               </button>
               <div class="accordion-item-content" id="accordion-content-3" role="tabpanel" aria-labelledby="accordion-title-3" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  We cover topics such as mental health, substance abuse, addiction prevention, emotional well-being, youth challenges, family relationships, and community safety.
                 </div>
               </div>
             </div>
 
             <div class="accordion-item" role="tab">
               <button class="accordion-item-title" id="accordion-title-4" aria-expanded="false" aria-controls="accordion-content-4" type="button" tabindex="0">
-                Do you charge for these programs?
+                Why are Awareness Programs important?
               </button>
               <div class="accordion-item-content" id="accordion-content-4" role="tabpanel" aria-labelledby="accordion-title-4" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  They help people recognize problems early, encourage open conversations, and promote healthier individuals and stronger communities.
                 </div>
               </div>
             </div>
 
             <div class="accordion-item" role="tab">
               <button class="accordion-item-title" id="accordion-title-5" aria-expanded="false" aria-controls="accordion-content-5" type="button" tabindex="0">
-                How do we invite you for a session?
+                How are the programs conducted?
               </button>
               <div class="accordion-item-content" id="accordion-content-5" role="tabpanel" aria-labelledby="accordion-title-5" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  Programs are conducted through talks, group discussions, workshops, interactive activities, and question-and-answer sessions.
                 </div>
               </div>
             </div>
 
             <div class="accordion-item" role="tab">
               <button class="accordion-item-title" id="accordion-title-6" aria-expanded="false" aria-controls="accordion-content-6" type="button" tabindex="0">
-                How long is a typical session?
+                Are the programs age-specific?
               </button>
               <div class="accordion-item-content" id="accordion-content-6" role="tabpanel" aria-labelledby="accordion-title-6" hidden="">
                 <div class="accordion-item-content-inner">
-                  Accordion content goes here...
+                  Yes. We tailor our programs for different groups such as children, youth, adults, parents, and community leaders.
                 </div>
               </div>
             </div>
+
+            <div class="accordion-item" role="tab">
+              <button class="accordion-item-title" id="accordion-title-7" aria-expanded="false" aria-controls="accordion-content-7" type="button" tabindex="0">
+                How long does an Awareness Program usually last?
+              </button>
+              <div class="accordion-item-content" id="accordion-content-7" role="tabpanel" aria-labelledby="accordion-title-7" hidden="">
+                <div class="accordion-item-content-inner">
+                  Programs can range from one-hour sessions to full-day workshops, depending on the topic and audience.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item" role="tab">
+              <button class="accordion-item-title" id="accordion-title-8" aria-expanded="false" aria-controls="accordion-content-8" type="button" tabindex="0">
+                Are these programs confidential?
+              </button>
+              <div class="accordion-item-content" id="accordion-content-8" role="tabpanel" aria-labelledby="accordion-title-8" hidden="">
+                <div class="accordion-item-content-inner">
+                  Yes. Personal sharing during sessions is respected, and confidentiality is maintained to ensure a safe and supportive environment.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item" role="tab">
+              <button class="accordion-item-title" id="accordion-title-9" aria-expanded="false" aria-controls="accordion-content-9" type="button" tabindex="0">
+                Can organizations or communities request a program?
+              </button>
+              <div class="accordion-item-content" id="accordion-content-9" role="tabpanel" aria-labelledby="accordion-title-9" hidden="">
+                <div class="accordion-item-content-inner">
+                  Yes. Schools, churches, NGOs, and community groups can request customized Awareness Programs based on their needs.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item" role="tab">
+              <button class="accordion-item-title" id="accordion-title-10" aria-expanded="false" aria-controls="accordion-content-10" type="button" tabindex="0">
+                Is there any cost involved?
+              </button>
+              <div class="accordion-item-content" id="accordion-content-10" role="tabpanel" aria-labelledby="accordion-title-10" hidden="">
+                <div class="accordion-item-content-inner">
+                  Some programs are free, while others may have a minimal fee depending on the resources and duration. Please contact us for details.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item" role="tab">
+              <button class="accordion-item-title" id="accordion-title-11" aria-expanded="false" aria-controls="accordion-content-11" type="button" tabindex="0">
+                How can I book or request an Awareness Program?
+              </button>
+              <div class="accordion-item-content" id="accordion-content-11" role="tabpanel" aria-labelledby="accordion-title-11" hidden="">
+                <div class="accordion-item-content-inner">
+                  You can contact us through the Services page or reach out via phone or email provided on our website.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item" role="tab">
+              <button class="accordion-item-title" id="accordion-title-12" aria-expanded="false" aria-controls="accordion-content-12" type="button" tabindex="0">
+                Do you provide follow-up support after the program?
+              </button>
+              <div class="accordion-item-content" id="accordion-content-12" role="tabpanel" aria-labelledby="accordion-title-12" hidden="">
+                <div class="accordion-item-content-inner">
+                  Yes. We guide participants to available support services, counseling, or community resources if further help is needed.
+                </div>
+              </div>
+            </div>
+
           </div> <!-- /.accordion --> 
         </div> <!-- /.container-mid -->
       </section>

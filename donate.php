@@ -79,10 +79,10 @@
         <div class="container-mid">
           <h2 class="show-on-screen-reader">Testimonial</h2>
           <div class="h2 font-medium">
-            <p class="spacing-t">When I first reached out to The Listening Station, I was going through a very dark and confusing time. I didn’t know if I could speak about what I was feeling. But the person on the other side just listened — without judgment. That moment helped me begin my journey toward healing. I feel lighter, and I now know that help is available when we ask for it.</p>
+            <p class="spacing-t">The Listening Station is a trusted, welcoming place in Nagaland for mental health help. It's easy to reach out, no judgment, just real support from trained listeners who cares.</p>
           </div>            
           <div class="spacing-2-t">
-            <div>– Tiajungla Aier, Dimapur</div>
+            <div>– Jolly Katty, Zunhebhoto, Nagaland</div>
           </div>
         </div> <!-- /.container-mid -->
       </section>

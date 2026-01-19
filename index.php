@@ -108,10 +108,11 @@
         <div class="container-mid">
           <h2 class="show-on-screen-reader">Testimonial</h2>
           <div class="h2 font-medium">
-            <p class="spacing-t">When I first reached out to The Listening Station, I was going through a very dark and confusing time. I didn’t know if I could speak about what I was feeling. But the person on the other side just listened — without judgment. That moment helped me begin my journey toward healing. I feel lighter, and I now know that help is available when we ask for it.</p>
+            <p class="spacing-t">I was struggling with anxiety after a tough year, feeling isolated. The Listening Station provided a safe space to talk through my worries with compassionate listeners who truly understood. Their support helped me regain my confidence and
+connect with my community again.</p>
           </div>            
           <div class="spacing-2-t">
-            <div>– Tiajungla Aier, Dimapur</div>
+            <div>– Tolo, Kohima, Nagaland</div>
           </div>
         </div> <!-- /.container-mid -->
       </section>

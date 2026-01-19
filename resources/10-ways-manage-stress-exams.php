@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>The Listening Station: Resources: Guide</title>
+    <title>The Listening Station: Resources: 10 Ways to Manage Stress After Exams</title>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="title" content="The Listening Station: Resources: Guide">
@@ -87,14 +87,14 @@
         <div class="container-lg">
           <h2 class="spacing-2-b">Related Articles</h2>          
           <div class="resources-stories-grid grid grid-xs-2 grid-mid-3 grid-gap-20">
-            <a href="" class="resources-card">
+            <a href="/resources/seek-help-impact-life" class="resources-card">
               <div class="resources-card-img-block">
                 <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
               </div>
               <div class="resources-card-body">
-                <p class="resources-card-label spacing-t">Guide</p>
-                <h3 class="resources-card-title h2 font-medium">10 Ways to Manage Stress After Exams</h3>
-                <p class="resources-card-description">Explore practical strategies to reduce exam stress.</p>
+                <p class="resources-card-label spacing-t">Blog</p>
+                <h3 class="resources-card-title h2 font-medium">Seeking Help Impacts All Life Areas</h3>
+                <p class="resources-card-description">Early help stops issues from worsening and speeds recovery.</p>
                 <div class="resources-card-tags flex grid-gap-10">
                   <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Youth</span>
                   <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Stress</span>
@@ -102,7 +102,7 @@
               </div>
             </a>
 
-            <a href="" class="resources-card">
+            <a href="https://reframe2024.mhi.org.in/context/warriors-within-decoding-the-paradox-of-strength-and-vulnerability-among-the-naga-tribe/" class="resources-card">
               <div class="resources-card-img-block">
                 <img src="/static/img/resources/warrior-within.jpg" width="720" height="400" class="resources-card-img">
               </div>
@@ -117,7 +117,7 @@
               </div>
             </a>
 
-            <a href="" class="resources-card">
+            <a href="/resources/mental-health-listening" class="resources-card">
               <div class="resources-card-img-block">
                 <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
               </div>

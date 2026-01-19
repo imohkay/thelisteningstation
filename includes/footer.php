@@ -7,16 +7,16 @@
       
       <div class="footer-col footer-col-social margin-left-auto">
         <div class="footer-social-icons grid grid-auto grid-gap-40">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook">
+          <a href="https://www.facebook.com/profile.php?id=61585291763277" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook">
             <img src="/static/img/icons/socials/facebook.svg" alt="Facebook" class="footer-social-icon">
           </a> <!-- /.footer-social-link -->
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
+          <a href="https://www.instagram.com/the_listening_station/?igsh=dmEzdzE5a21mbHVw#" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
             <img src="/static/img/icons/socials/instagram.svg" alt="Instagram" class="footer-social-icon">
           </a> <!-- /.footer-social-link -->
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/the-listening-station-8a56103a0/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn">
             <img src="/static/img/icons/socials/linkedin.svg" alt="LinkedIn" class="footer-social-icon">
           </a> <!-- /.footer-social-link -->
-          <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="X (formerly Twitter)">
+          <a href="https://x.com/TLS_nagaland" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="X (formerly Twitter)">
             <img src="/static/img/icons/socials/x.svg" alt="X (formerly Twitter)" class="footer-social-icon">
           </a> <!-- /.footer-social-link -->
         </div> <!-- /.footer-social-icons -->

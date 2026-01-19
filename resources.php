@@ -38,7 +38,22 @@
           </div>
 
           <div class="resources-stories-grid grid grid-xs-2 grid-mid-3 grid-gap-20">
-            <a href="/resources/guide" class="resources-card js-resources-card">
+            <a href="/resources/seek-help-impact-life" class="resources-card js-resources-card">
+              <div class="resources-card-img-block">
+                <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
+              </div>
+              <div class="resources-card-body">
+                <p class="resources-card-label spacing-t">Blog</p>
+                <h3 class="resources-card-title h2 font-medium">Seeking Help Impacts All Life Areas</h3>
+                <p class="resources-card-description">Early help stops issues from worsening and speeds recovery.</p>
+                <div class="resources-card-tags flex grid-gap-10">
+                  <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Youth</span>
+                  <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Stress</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/resources/10-ways-manage-stress-exams" class="resources-card js-resources-card">
               <div class="resources-card-img-block">
                 <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
               </div>
@@ -68,7 +83,7 @@
               </div>
             </a>
 
-            <a href="/resources/blog" class="resources-card js-resources-card">
+            <a href="/resources/mental-health-listening" class="resources-card js-resources-card">
               <div class="resources-card-img-block">
                 <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
               </div>
@@ -81,55 +96,11 @@
                 </div>
               </div>
             </a>
-
-            <a href="" class="resources-card js-resources-card">
-              <div class="resources-card-img-block">
-                <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
-              </div>
-              <div class="resources-card-body">
-                <p class="resources-card-label spacing-t">Guide</p>
-                <h3 class="resources-card-title h2 font-medium">Foo</h3>
-                <p class="resources-card-description">Explore practical strategies to reduce exam stress.</p>
-                <div class="resources-card-tags flex grid-gap-10">
-                  <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Youth</span>
-                  <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Stress</span>
-                </div>
-              </div>
-            </a>
-
-            <a href="" class="resources-card js-resources-card">
-              <div class="resources-card-img-block">
-                <img src="/static/img/resources/warrior-within.jpg" width="720" height="400" class="resources-card-img">
-              </div>
-              <div class="resources-card-body">
-                <p class="resources-card-label">Article</p>
-                <h3 class="resources-card-title h2 font-medium">Baz</h3>
-                <p class="resources-card-description">Decoding the Paradox of Strength and Vulnerability among the Naga Tribe</p>
-                <div class="resources-card-tags flex grid-gap-10">
-                  <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Youth</span>
-                  <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Depression</span>
-                </div>
-              </div>
-            </a>
-
-            <a href="" class="resources-card js-resources-card">
-              <div class="resources-card-img-block">
-                <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
-              </div>
-              <div class="resources-card-body">
-                <p class="resources-card-label">Blog</p>
-                <h3 class="resources-card-title h2 font-medium">Bar</h3>
-                <div class="resources-card-tags flex grid-gap-10">
-                  <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Community</span>
-                  <span class="resources-tag btn btn--tag btn--yellow-corn btn--sm">Adult</span>
-                </div>
-              </div>
-            </a>
           </div> <!-- /.resources-stories-grid -->
 
-          <!-- <div class="resources-cta text-center spacing-5-t-app">
+          <div class="resources-cta text-center spacing-5-t-app">
             <a href="/resources" class="btn btn--yellow-corn js-btn--view-more-resources">Read More</a>
-          </div> -->
+          </div>
         </div> <!-- /.container-lg -->
       </section>
 

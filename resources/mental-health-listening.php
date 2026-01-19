@@ -4,7 +4,7 @@
     <title>The Listening Station: Resources: Guide</title>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="title" content="The Listening Station: Resources: Guide">
+    <meta name="title" content="The Listening Station: Resources: Everyone Talks about Mental Health">
     <?php include "../includes/head-meta.php"; ?>
     <?php include "../includes/head.php"; ?>
     <link rel="stylesheet" href="/static/css/style.css">
@@ -19,7 +19,7 @@
               <div>
                 <h2 class="h1 banner-inner-page-heading">Everyone talks about Mental Health-But is anyone actually listening?</h2>
                 <div>
-                  <h4 class="font-size-base">BLOG | T Lumrila</h4>
+                  <h4 class="font-size-base">BLOG | T Lumrila, Communications Associate cum Counselor, The Listening Station</h4>
                   <p class="spacing-t">With the increase in mental health dialogue, it's now front and center in daily life, picking up traction from classroom to water cooler to workplace.</p>
                 </div>
               </div>
