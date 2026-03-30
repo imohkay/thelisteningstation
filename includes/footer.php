@@ -31,7 +31,7 @@
             <h3 class="font-size-base font-medium">The Listening Station</h3>
             <p>488 Lengrijan, Taxes Colony,<br>Near Waiting Shed, Dimapur, 797 112</p>
             <p>0ffice hours: <br>
-              10 AM to 6PM
+              10AM to 6PM
             </p>
           </div> <!-- /.footer-col-contact -->
 
