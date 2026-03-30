@@ -1,6 +1,5 @@
 /*
 - Change to button click on home page banenr
-add back button for guide page as well
 
 */
 
@@ -498,6 +497,13 @@ h6, .h6 {
 .spacing-9-v-app {
   padding-top: var(--spacing-9);
   padding-bottom: var(--spacing-9);
+}
+
+/* -------------------------------------*/
+/* GLOBALS: CURSOR NO POINTER */
+
+.cursor-no-pointer {
+  pointer-events: none;
 }
 
 
@@ -2189,6 +2195,7 @@ textarea.form-input {
 
 .donate-card-btn {
   font-size: var(--h2);
+  pointer-events: none;
 }
 
 /* ------------------------------------- */

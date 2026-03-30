@@ -40,7 +40,7 @@
           <div class="resources-stories-grid grid grid-xs-2 grid-mid-3 grid-gap-20">
             <a href="/resources/seek-help-impact-life" class="resources-card js-resources-card">
               <div class="resources-card-img-block">
-                <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
+                <img src="/static/img/resources/seek-help.jpg" width="720" height="400" class="resources-card-img">
               </div>
               <div class="resources-card-body">
                 <p class="resources-card-label spacing-t">Blog</p>
@@ -55,7 +55,7 @@
 
             <a href="/resources/10-ways-manage-stress-exams" class="resources-card js-resources-card">
               <div class="resources-card-img-block">
-                <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
+                <img src="/static/img/resources/exam-stress.jpg" width="720" height="400" class="resources-card-img">
               </div>
               <div class="resources-card-body">
                 <p class="resources-card-label spacing-t">Guide</p>
@@ -85,7 +85,7 @@
 
             <a href="/resources/mental-health-listening" class="resources-card js-resources-card">
               <div class="resources-card-img-block">
-                <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
+                <img src="/static/img/resources/everyone-talks-about-mental-health.jpg" width="720" height="400" class="resources-card-img">
               </div>
               <div class="resources-card-body">
                 <p class="resources-card-label">Blog</p>

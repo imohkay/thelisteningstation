@@ -36,12 +36,14 @@
             <p class="blog-article-padding">Listening is a skill, not a reflex: Everyone would call themselves a good listener, but in actual fact, what is more likely to occur is that they just wait for their own turn to talk instead of actually listening to the other person. Real listening is more than hearing words- it asks for presence, empathy and patience. It is giving somebody your undivided attention without interrupting, formulating your response in your mind, or hurrying to provide advice. This is especially crucial when working with students, many of whom face an array of emotional and academic pressures.</p>
 
             <div class="blog-article-padding">
-              <img src="https://dummyimage.com/800x300" alt="">
+              <img src="/static/img/resources/everyone-talks-about-mental-health.jpg" alt="">
             </div>
 
             <p class="blog-article-padding">Students become overwhelmed, isolated or misunderstood and in their vulnerable state, they're not necessarily seeking solutions but they're seeking to feel heard and understood. So typical reactions such as " you'll be alright or Everyone goes through it", whilst more often that not, meant to provide reassurance, actually make one feel isolated. Such comments may indicate that their experiences or feelings are not special or real, and this would make them even more frustrated or retreat in themselves. By stark comparison, a genuinely supportive listener sets up a safe place through listening to the student's feelings, asking open ended questions and providing empathy without criticism. This sort of presence actually makes all the difference in the ability of the student to manage, feel heard and re-establish a sense of understanding and assurance. Just as the effective leader is often times defined in terms of the ability first to remain an effective follower, the effective mentor or therapist is that one who has mastered the art of listening. </p>
 
             <p class="blog-article-padding">Real connection and healing begin when we stop working toward fix and start learning to listen. It is, in the end, less about having all of the solutions and more in terms of being present enough to listen for the questions that Matter.</p>
+
+            <p class="font-size-xs">Image Credit: <a href="https://unsplash.com/photos/text-fzqxoFJytiE">Marcel Strauß</a></p>
 
           </div> <!-- /.container-sm -->
         </div> <!-- /.container-mid -->
@@ -53,7 +55,7 @@
           <div class="resources-stories-grid grid grid-xs-2 grid-mid-3 grid-gap-20">
             <a href="" class="resources-card">
               <div class="resources-card-img-block">
-                <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
+                <img src="/static/img/resources/exam-stress.jpg" width="720" height="400" class="resources-card-img">
               </div>
               <div class="resources-card-body">
                 <p class="resources-card-label spacing-t">Guide</p>
@@ -83,7 +85,7 @@
 
             <a href="" class="resources-card">
               <div class="resources-card-img-block">
-                <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
+                <img src="/static/img/resources/everyone-talks-about-mental-health.jpg" width="800" height="444" class="resources-card-img">
               </div>
               <div class="resources-card-body">
                 <p class="resources-card-label">Blog</p>

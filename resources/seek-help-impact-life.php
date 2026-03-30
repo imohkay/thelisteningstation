@@ -52,7 +52,7 @@
             </div>
 
             <div class="blog-article-padding">
-              <img src="https://dummyimage.com/800x300" alt="">
+              <img src="/static/img/resources/seek-help.jpg" width="800" height="444" alt="">
             </div>
 
             <div class="blog-article-padding">
@@ -67,6 +67,8 @@
               <p>Mental health struggles aren't about weak faith or character—they happen to all. Speaking up strengthens communities. You've got support waiting—one step
 changes everything. Reach out to spots like The Listening Station in Nagaland for that first caring ear.</p>
             </div>
+
+             <p class="font-size-xs">Image Credit: <a href="https://unsplash.com/photos/man-beside-white-frame-window-6x2iKGi6SPU">Fernando</a></p>
           </div> <!-- /.container-sm -->
         </div> <!-- /.container-mid -->
       </section>
@@ -77,7 +79,7 @@ changes everything. Reach out to spots like The Listening Station in Nagaland fo
           <div class="resources-stories-grid grid grid-xs-2 grid-mid-3 grid-gap-20">
             <a href="/resources/10-ways-manage-stress-exams" class="resources-card">
               <div class="resources-card-img-block">
-                <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
+                <img src="/static/img/resources/exam-stress.jpg" width="720" height="400" class="resources-card-img">
               </div>
               <div class="resources-card-body">
                 <p class="resources-card-label spacing-t">Guide</p>
@@ -107,7 +109,7 @@ changes everything. Reach out to spots like The Listening Station in Nagaland fo
 
             <a href="/resources/mental-health-listening.php" class="resources-card">
               <div class="resources-card-img-block">
-                <img src="/static/img/resources/placeholder.jpg" width="720" height="400" class="resources-card-img">
+                <img src="/static/img/resources/seek-help.jpg" width="800" height="444" class="resources-card-img">
               </div>
               <div class="resources-card-body">
                 <p class="resources-card-label">Blog</p>

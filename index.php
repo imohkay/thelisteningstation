@@ -155,5 +155,112 @@ connect with my community again.</p>
 
     <?php include "includes/footer.php"; ?>
     <script type="text/javascript" src="/static/js/main.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const customDropdowns = document.querySelectorAll('.custom-dropdown');
+
+        customDropdowns.forEach(dropdown => {
+          const toggle = dropdown.querySelector('.custom-dropdown-toggle');
+          const menu = dropdown.querySelector('.custom-dropdown-menu');
+          const text = dropdown.querySelector('.custom-dropdown-text');
+          const menuItems = dropdown.querySelectorAll('.custom-dropdown-menu a');
+          const exploreButton = dropdown.closest('.banner-select-block')?.querySelector('.banner-home-btn-explore');
+
+          if (!toggle || !menu || !text) return;
+          let selectedHref = '';
+
+          const updateSelection = function (label, href) {
+            text.textContent = label;
+            selectedHref = href && href !== '#' ? href : '';
+            if (exploreButton) {
+              exploreButton.setAttribute('href', selectedHref || '#');
+            }
+          };
+
+          const initialItem =
+            Array.from(menuItems).find(item => item.textContent.trim() === text.textContent.trim()) ||
+            menuItems[0];
+          if (initialItem) {
+            updateSelection(initialItem.textContent.trim(), initialItem.getAttribute('href'));
+          }
+
+          toggle.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            const isExpanded = this.getAttribute('aria-expanded') === 'true';
+            const newState = !isExpanded;
+
+            customDropdowns.forEach(otherDropdown => {
+              if (otherDropdown !== dropdown) {
+                const otherToggle = otherDropdown.querySelector('.custom-dropdown-toggle');
+                const otherMenu = otherDropdown.querySelector('.custom-dropdown-menu');
+                if (otherToggle && otherMenu) {
+                  otherToggle.setAttribute('aria-expanded', 'false');
+                  otherMenu.setAttribute('aria-hidden', 'true');
+                }
+              }
+            });
+
+            this.setAttribute('aria-expanded', newState);
+            menu.setAttribute('aria-hidden', !newState);
+          });
+
+          menuItems.forEach(item => {
+            item.addEventListener('click', function (e) {
+              e.preventDefault();
+              updateSelection(this.textContent.trim(), this.getAttribute('href'));
+              toggle.setAttribute('aria-expanded', 'false');
+              menu.setAttribute('aria-hidden', 'true');
+            });
+          });
+
+          if (exploreButton) {
+            exploreButton.addEventListener('click', function (e) {
+              e.preventDefault();
+              if (selectedHref) {
+                window.location.href = selectedHref;
+              }
+            });
+          }
+
+          document.addEventListener('click', function (e) {
+            if (!dropdown.contains(e.target)) {
+              toggle.setAttribute('aria-expanded', 'false');
+              menu.setAttribute('aria-hidden', 'true');
+            }
+          });
+
+          toggle.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.click();
+            } else if (e.key === 'Escape') {
+              toggle.setAttribute('aria-expanded', 'false');
+              menu.setAttribute('aria-hidden', 'true');
+            }
+          });
+
+          let currentIndex = -1;
+          menuItems.forEach(item => {
+            item.addEventListener('keydown', function (e) {
+              if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                currentIndex = (currentIndex + 1) % menuItems.length;
+                menuItems[currentIndex].focus();
+              } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                currentIndex = currentIndex <= 0 ? menuItems.length - 1 : currentIndex - 1;
+                menuItems[currentIndex].focus();
+              } else if (e.key === 'Escape') {
+                toggle.setAttribute('aria-expanded', 'false');
+                menu.setAttribute('aria-hidden', 'true');
+                toggle.focus();
+              }
+            });
+          });
+        });
+      });
+    </script>
   </body>
 </html>

@@ -66,10 +66,11 @@
               <p>Give what you can, every contribution matters</p>
             </div>
             <div class="flex">
-              <div class="flex-1">
+              <!-- <div class="flex-1">
                 <input type="text" class="form-input form-input--sm">
-              </div>
-              <div class="btn btn--yellow-corn btn--sm">></div>
+              </div> -->
+              <!-- <div class="btn btn--yellow-corn btn--sm">></div> -->
+              <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_SXMpx72WBi8CPN" async> </script> </form>
             </div>
           </div>
         </div> <!--/.container-xs -->
